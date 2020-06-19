@@ -1,0 +1,10 @@
+15:26:59 **** Incremental Build of configuration Debug for project c 4.3 (praise2) ****
+make all 
+Building target: c 4.3 
+Invoking: GCC C Linker
+gcc  -o "c 4.3 (praise2)"  ./praise2.o   
+Finished building target: c 4.3 
+ 
+
+15:26:59 Build Finished (took 229ms)
+

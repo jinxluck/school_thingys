@@ -1,0 +1,46 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 20 Mar 2020
+ *      Author: jinxluck
+ */
+
+#include<iostream>
+#include<unistd.h> //for usleep
+#include"GPIO_controle.h"
+
+using namespace std;
+
+int GPIO_IN = 52; //P2.06
+int GPIO_OUT = 15; //P2.08
+
+int main(void)
+{
+	printf("V2\n\n");
+	int val= 0;
+
+	printf(" *Setting directions\n");
+	set_direction(GPIO_IN, 1);
+	set_direction(GPIO_OUT, 0);
+
+	printf(" *Starting loop\n");
+	printf("    Use ctrl+c to stop program \n");
+
+	while(1)
+	{
+		val = read_value(GPIO_IN);
+		printf("val: %d\n",val)
+		if(val)
+		{
+			set_value(GPIO_OUT, 1);
+		}
+		else
+		{
+			set_value(GPIO_OUT, 0);
+		}
+	}
+
+
+
+	return 0;
+}

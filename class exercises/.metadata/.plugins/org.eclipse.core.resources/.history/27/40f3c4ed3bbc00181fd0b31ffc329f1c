@@ -1,0 +1,54 @@
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// File name: 	converter.c
+// Author: 		jinxluck
+// Created on: 	19 Sep 2018
+// Description:
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#include <stdio.h>
+
+#define M_H 60
+
+int main(void)
+{
+	int input, min, hour;
+
+	printf("First program will convert minutes to hours and minutes!\n"
+			"Second program will convert minutes and hours to minutes! \n"
+			"(OBS second program will start dirctly after the first program"
+			"!)\n\n");
+
+	printf("Enter how many minutes should be converted to hours and"
+			" minutes (enter 0 to stop program!):\n");
+	scanf("%d", &input);
+
+	while (input > 0)
+	{
+		hour = input / M_H;
+		min = input % M_H;
+
+		printf("%d seconds is: %d hours, %d minutes\n\n", input, hour, min);
+
+		printf("Enter new value (enter 0 to stop program!)\n");
+		scanf("%d", &input);
+	}
+	printf("First program has stopped!\n\n");
+	printf("Second program has started!\n");
+	printf("Enter first hours and then minutes that should be converted"
+			" (enter 0 to stop program!):\n");
+	scanf("%d %d", &hour, &min);
+
+	while (hour + min > 0)
+	{
+		hour = hour * M_H;
+
+		printf("%d hours and %d minutes is %d minutes in total!\n", hour, min,
+				hour + min);
+
+		printf("Enter first hours and then minutes that should be converted"
+				" to minutes (enter 0 to stop program!):\n");
+		scanf("%d %d", &hour, &min);
+	}
+
+	return 0;
+}

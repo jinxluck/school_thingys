@@ -1,0 +1,15 @@
+15:01:42 **** Incremental Build of configuration Debug for project c 4.1 (talkback) ****
+make all 
+Building file: ../talkback.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"talkback.d" -MT"talkback.o" -o "talkback.o" "../talkback.c"
+Finished building: ../talkback.c
+ 
+Building target: c 4.1 
+Invoking: GCC C Linker
+gcc  -o "c 4.1 (talkback)"  ./talkback.o   
+Finished building target: c 4.1 
+ 
+
+15:01:43 Build Finished (took 536ms)
+

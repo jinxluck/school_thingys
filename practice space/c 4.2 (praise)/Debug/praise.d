@@ -1,0 +1,1 @@
+praise.o: ../praise.c

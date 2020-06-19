@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;uge 9 prg2 tor/pe15-1-start.c&apos;" deleteContents="false" description="Delete resource &apos;uge 9 prg2 tor/pe15-1-start.c&apos;" element1="/uge 9 prg2 tor/pe15-1-start.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1551350066206"/>
+</session>

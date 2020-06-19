@@ -1,0 +1,119 @@
+/*
+ * GPIO_controle.cpp
+ *
+ *  Created on: 20 Mar 2020
+ *      Author: jinxluck
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "GPIO_controle.h"
+
+char PATH[100] = "/sys/class/gpio/gpio";
+
+/*
+ * direction:
+ *  out = 1
+ * 	in = 0
+ *
+ * 	GPIO:
+ * 	 gpio number
+ */
+void set_direction(int GPIO, int direction)
+{
+	FILE *fs;
+
+	char dir_path[100];
+
+	char buffer[5];
+	snprintf(buffer, 5, "%d", GPIO);
+
+	strcat(dir_path, PATH);
+	strcat(dir_path, buffer);
+	strcat(dir_path, "/direction");
+
+	fs=fopen(dir_path, "w");
+	fseek(fs, 0, SEEK_SET);
+
+	if(direction == 0)
+	{
+		fprintf(fs,"in");
+	}
+	else
+	{
+		fprintf(fs,"out");
+	}
+
+	fclose(fs);
+}
+
+/*
+ * value:
+ *  high = 1
+ *  low = 0
+ *
+ * GPIO:
+ *  gpio number
+ */
+void set_value(int GPIO, int value)
+{
+	FILE *fs;
+
+	char dir_path[100];
+
+	char buffer[5];
+	snprintf(buffer, 5, "%d", GPIO);
+
+	strcat(dir_path, PATH);
+	strcat(dir_path, buffer);
+	strcat(dir_path, "/value");
+
+	fs=fopen(dir_path, "w");
+	fseek(fs, 0, SEEK_SET);
+
+	fprintf(fs,"%d", value);
+
+
+	fclose(fs);
+
+}
+
+/*
+ * GPIO:
+ *  gpio number
+ *
+ * return value:
+ *  the value of gpio XX
+ */
+int read_value(int GPIO)
+{
+	FILE *fs;
+
+	char dir_path[100];
+
+	int value;
+
+	char buffer[5];
+	snprintf(buffer, 5, "%d", GPIO);
+
+	strcat(dir_path, PATH);
+	strcat(dir_path, buffer);
+	strcat(dir_path, "/value");
+
+	fs=fopen(dir_path, "r");
+	fseek(fs, 0, SEEK_SET);
+
+	fscanf(fs,"%d",value);
+
+	fclose(fs);
+
+	return value;
+}
+
+
+
+
+
+
+

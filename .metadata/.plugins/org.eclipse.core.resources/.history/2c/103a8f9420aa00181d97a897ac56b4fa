@@ -1,0 +1,22 @@
+/*
+ * main.c
+ *
+ *  Created on: 26 Aug 2018
+ *      Author: jinxluck
+ */
+
+#include <stdio.h>
+
+int main()
+{
+	getchar();
+	printf("Hello world!\n");
+	getchar();
+	printf("Hehe you pushed again :D\n");
+	getchar();
+	printf("seriusly stop it...\n");
+	getchar();
+	printf("fuck this i'm out...\n");
+	printf("*eclipse has left the building\n");
+	return 0;
+}

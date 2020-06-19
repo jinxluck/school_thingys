@@ -1,0 +1,10 @@
+18:38:33 **** Incremental Build of configuration Debug for project c 5.13 (addmeup) ****
+make all 
+Building target: c 5.13 
+Invoking: GCC C Linker
+gcc  -o "c 5.13 (addmeup)"  ./addmeup.o   
+Finished building target: c 5.13 
+ 
+
+18:38:33 Build Finished (took 197ms)
+

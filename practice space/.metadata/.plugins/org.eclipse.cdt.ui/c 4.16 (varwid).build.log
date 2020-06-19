@@ -1,0 +1,10 @@
+17:35:21 **** Incremental Build of configuration Debug for project c 4.16 (varwid) ****
+make all 
+Building target: c 4.16 
+Invoking: GCC C Linker
+gcc  -o "c 4.16 (varwid)"  ./varwid.o   
+Finished building target: c 4.16 
+ 
+
+17:35:22 Build Finished (took 240ms)
+

@@ -1,0 +1,10 @@
+18:39:28 **** Incremental Build of configuration Debug for project c 5.3 (golf) ****
+make all 
+Building target: c 5.3 
+Invoking: GCC C Linker
+gcc  -o "c 5.3 (golf)"  ./golf.o   
+Finished building target: c 5.3 
+ 
+
+18:39:28 Build Finished (took 215ms)
+

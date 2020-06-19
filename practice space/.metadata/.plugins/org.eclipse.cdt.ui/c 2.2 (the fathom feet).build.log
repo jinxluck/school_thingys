@@ -1,0 +1,10 @@
+19:26:59 **** Incremental Build of configuration Debug for project c 2.2 (the fathom feet) ****
+make all 
+Building target: c 2.2 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 (the fathom feet)"  ./fathm.o   
+Finished building target: c 2.2 
+ 
+
+19:26:59 Build Finished (took 228ms)
+

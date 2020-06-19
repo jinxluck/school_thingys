@@ -1,0 +1,10 @@
+17:22:11 **** Incremental Build of configuration Debug for project c 2.1 program (num) ****
+make all 
+Building target: c 2.1 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program (num)"  ./main.o   
+Finished building target: c 2.1 program 
+ 
+
+17:22:11 Build Finished (took 199ms)
+

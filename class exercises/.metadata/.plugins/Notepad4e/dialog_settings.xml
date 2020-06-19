@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="notepad4e.views.NotepadView">
+		<item value="" key="TabBullets0"/>
+		<item value="" key="TabStyle0"/>
+		<item value="Note 1" key="TabTitle0"/>
+		<item value="1" key="NumOfTabs"/>
+		<item value="suppose list.h (listing 17.3) uses the following definition of a list:&#x0A;&#x0A;typedef struct list&#x0A;{&#x0A;Node * head; //points to head of list&#x0A;Node * end //points to end of list&#x0A;} list;&#x0A;&#x0A;Rewrite the list.c (listing 17.5) functions to fit this definition and test the resulting code with the films3.c  (listing 17.4) program&#x0A;&#x0A;while (scan-&gt;next != NULL)&#x0A;            scan = scan-&gt;next;  /* find end of list    */&#x0A;        scan-&gt;next = pnew;      /* add pnew to end     */" key="TabText0"/>
+		<item value="true" key="TabEditable0"/>
+	</section>
+</section>

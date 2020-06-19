@@ -1,0 +1,10 @@
+16:21:29 **** Incremental Build of configuration Debug for project c 5.8 (sizeof) ****
+make all 
+Building target: c 5.8 
+Invoking: GCC C Linker
+gcc  -o "c 5.8 (sizeof)"  ./sizeof.o   
+Finished building target: c 5.8 
+ 
+
+16:21:29 Build Finished (took 215ms)
+

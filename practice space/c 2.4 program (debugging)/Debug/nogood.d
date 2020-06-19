@@ -1,0 +1,1 @@
+nogood.o: ../nogood.c

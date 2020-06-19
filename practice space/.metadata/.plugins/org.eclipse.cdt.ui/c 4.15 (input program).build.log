@@ -1,0 +1,10 @@
+16:43:00 **** Incremental Build of configuration Debug for project c 4.15 (input program) ****
+make all 
+Building target: c 4.15 
+Invoking: GCC C Linker
+gcc  -o "c 4.15 (input program)"  ./input.o   
+Finished building target: c 4.15 
+ 
+
+16:43:00 Build Finished (took 302ms)
+

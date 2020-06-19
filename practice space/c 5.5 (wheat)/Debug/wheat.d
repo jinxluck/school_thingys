@@ -1,0 +1,1 @@
+wheat.o: ../wheat.c

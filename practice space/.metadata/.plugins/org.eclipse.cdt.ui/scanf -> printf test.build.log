@@ -1,0 +1,6 @@
+16:58:45 **** Incremental Build of configuration Debug for project scanf -> printf test ****
+make all 
+make: Nothing to be done for `all'.
+
+16:58:46 Build Finished (took 136ms)
+

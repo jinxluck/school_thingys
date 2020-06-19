@@ -1,0 +1,30 @@
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// File name: 	converter.c
+// Author: 		jinxluck
+// Created on: 	19 Sep 2018
+// Description:
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#include <stdio.h>
+
+#define M_H 60
+
+int main(void)
+{
+	int input, min, hour;
+
+	printf("Enter how many minutes should be converted to hours and"
+			" minutes (enter 0 to stop program!):\n");
+
+	while (min > 0)
+	{
+		scanf("%d", &input);
+
+		hour = min / M_H;
+		min = input % M_H;
+
+		printf("%d seconds is: %d hours, %d minutes\n", input, hour, min);
+	}
+
+	return 0;
+}

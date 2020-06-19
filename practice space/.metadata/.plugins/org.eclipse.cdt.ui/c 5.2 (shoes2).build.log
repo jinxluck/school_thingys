@@ -1,0 +1,10 @@
+18:17:44 **** Incremental Build of configuration Debug for project c 5.2 (shoes2) ****
+make all 
+Building target: c 5.2 
+Invoking: GCC C Linker
+gcc  -o "c 5.2 (shoes2)"  ./shoes2.o   
+Finished building target: c 5.2 
+ 
+
+18:17:44 Build Finished (took 290ms)
+

@@ -1,0 +1,10 @@
+19:18:52 **** Incremental Build of configuration Debug for project c 5.5 (wheat) ****
+make all 
+Building target: c 5.5 
+Invoking: GCC C Linker
+gcc  -o "c 5.5 (wheat)"  ./wheat.o   
+Finished building target: c 5.5 
+ 
+
+19:18:53 Build Finished (took 215ms)
+

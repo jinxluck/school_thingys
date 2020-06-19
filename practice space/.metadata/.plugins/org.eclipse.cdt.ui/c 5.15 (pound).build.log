@@ -1,0 +1,10 @@
+19:20:06 **** Incremental Build of configuration Debug for project c 5.15 (pound) ****
+make all 
+Building target: c 5.15 
+Invoking: GCC C Linker
+gcc  -o "c 5.15 (pound)"  ./pound.o   
+Finished building target: c 5.15 
+ 
+
+19:20:07 Build Finished (took 249ms)
+

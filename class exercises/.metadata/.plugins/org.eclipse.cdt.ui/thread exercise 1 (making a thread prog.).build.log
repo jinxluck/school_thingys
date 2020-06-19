@@ -1,0 +1,22 @@
+12:11:45 **** Incremental Build of configuration Debug for project thread exercise 1 (making a thread prog.) ****
+make all 
+Building file: ../thread.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"thread.d" -MT"thread.o" -o "thread.o" "../thread.c"
+../thread.c: In function ‘letter_change’:
+../thread.c:34:2: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+  int i = strlen(input);
+  ^
+../thread.c:34:10: warning: incompatible implicit declaration of built-in function ‘strlen’ [enabled by default]
+  int i = strlen(input);
+          ^
+Finished building: ../thread.c
+ 
+Building target: thread exercise 1 
+Invoking: GCC C Linker
+gcc  -o "thread exercise 1 (making a thread prog.)"  ./thread.o   -lpthread
+Finished building target: thread exercise 1 
+ 
+
+12:11:46 Build Finished (took 571ms)
+

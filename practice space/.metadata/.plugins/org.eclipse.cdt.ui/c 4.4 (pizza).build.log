@@ -1,0 +1,10 @@
+15:43:56 **** Incremental Build of configuration Debug for project c 4.4 (pizza) ****
+make all 
+Building target: c 4.4 
+Invoking: GCC C Linker
+gcc  -o "c 4.4 (pizza)"  ./pizza.o   
+Finished building target: c 4.4 
+ 
+
+15:43:56 Build Finished (took 380ms)
+

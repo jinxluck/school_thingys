@@ -1,0 +1,10 @@
+17:51:06 **** Incremental Build of configuration Debug for project c 5.9 (min_sec) ****
+make all 
+Building target: c 5.9 
+Invoking: GCC C Linker
+gcc  -o "c 5.9 (min_sec)"  ./min_sec.o   
+Finished building target: c 5.9 
+ 
+
+17:51:06 Build Finished (took 217ms)
+

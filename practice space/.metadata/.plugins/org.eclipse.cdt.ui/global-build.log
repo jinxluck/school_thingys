@@ -1,0 +1,3116 @@
+19:49:00 **** Clean-only build of configuration Debug for project c 2.1 program (num) ****
+make clean 
+rm -rf  ./main.o  ./main.d  "c 2.1 program (num)"
+ 
+19:49:01 **** Build of configuration Debug for project c 2.1 program (num) ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: c 2.1 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program (num)"  ./main.o   
+Finished building target: c 2.1 program 
+ 
+19:49:01 **** Clean-only build of configuration Debug for project c 2.2 program (fathom) ****
+make clean 
+rm -rf  ./fathm_ft.o  ./fathm_ft.d  "c 2.2 program (fathom)"
+ 
+19:49:02 **** Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building file: ../fathm_ft.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fathm_ft.d" -MT"fathm_ft.o" -o "fathm_ft.o" "../fathm_ft.c"
+Finished building: ../fathm_ft.c
+ 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./fathm_ft.o   
+Finished building target: c 2.2 program 
+ 
+19:49:02 **** Build of configuration Debug for project c 2.3 (two functions) ****
+make all 
+Building file: ../two_func.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"two_func.d" -MT"two_func.o" -o "two_func.o" "../two_func.c"
+Finished building: ../two_func.c
+ 
+Building target: c 2.3 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 (two functions)"  ./two_func.o   
+Finished building target: c 2.3 
+ 
+19:49:03 **** Clean-only build of configuration Debug for project test ****
+make clean 
+rm -rf  ./main.o  ./main.d  test
+ 
+19:49:03 **** Build of configuration Debug for project test ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: test
+Invoking: GCC C Linker
+gcc  -o "test"  ./main.o   
+Finished building target: test
+ 
+19:49:06 **** Incremental Build of configuration Debug for project c 2.3 (two functions) ****
+make all 
+Building target: c 2.3 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 (two functions)"  ./two_func.o   
+Finished building target: c 2.3 
+ 
+20:06:42 **** Incremental Build of configuration Debug for project c 2.1 program (num) ****
+make all 
+Building target: c 2.1 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program (num)"  ./main.o   
+Finished building target: c 2.1 program 
+ 
+20:06:42 **** Incremental Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./fathm_ft.o   
+Finished building target: c 2.2 program 
+ 
+20:06:42 **** Clean-only build of configuration Debug for project c 2.3 program (two functions) ****
+make clean 
+rm -rf  ./two_func.o  ./two_func.d  "c 2.3 (two functions)"
+ 
+20:06:43 **** Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building file: ../two_func.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"two_func.d" -MT"two_func.o" -o "two_func.o" "../two_func.c"
+Finished building: ../two_func.c
+ 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+20:06:43 **** Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building file: ../nogood.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"nogood.d" -MT"nogood.o" -o "nogood.o" "../nogood.c"
+Finished building: ../nogood.c
+ 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+20:06:44 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+20:06:47 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+20:07:32 **** Incremental Build of configuration Debug for project c 2.1 program (num) ****
+make all 
+Building target: c 2.1 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program (num)"  ./main.o   
+Finished building target: c 2.1 program 
+ 
+20:07:32 **** Incremental Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./fathm_ft.o   
+Finished building target: c 2.2 program 
+ 
+20:07:33 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+20:07:33 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building file: ../nogood.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"nogood.d" -MT"nogood.o" -o "nogood.o" "../nogood.c"
+Finished building: ../nogood.c
+ 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+20:07:33 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+20:11:55 **** Incremental Build of configuration Debug for project c 2.1 program (num) ****
+make all 
+Building target: c 2.1 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program (num)"  ./main.o   
+Finished building target: c 2.1 program 
+ 
+20:11:56 **** Incremental Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./fathm_ft.o   
+Finished building target: c 2.2 program 
+ 
+20:11:56 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+20:11:57 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building file: ../nogood.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"nogood.d" -MT"nogood.o" -o "nogood.o" "../nogood.c"
+Finished building: ../nogood.c
+ 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+20:11:57 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+20:12:03 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+20:12:17 **** Incremental Build of configuration Debug for project c 2.1 program (num) ****
+make all 
+Building target: c 2.1 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program (num)"  ./main.o   
+Finished building target: c 2.1 program 
+ 
+20:12:17 **** Incremental Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./fathm_ft.o   
+Finished building target: c 2.2 program 
+ 
+20:12:17 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+20:12:18 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building file: ../nogood.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"nogood.d" -MT"nogood.o" -o "nogood.o" "../nogood.c"
+Finished building: ../nogood.c
+ 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+20:12:19 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+20:12:22 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+20:13:08 **** Incremental Build of configuration Debug for project c 2.1 program (num) ****
+make all 
+Building target: c 2.1 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program (num)"  ./main.o   
+Finished building target: c 2.1 program 
+ 
+20:13:08 **** Incremental Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./fathm_ft.o   
+Finished building target: c 2.2 program 
+ 
+20:13:09 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+20:13:09 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building file: ../nogood.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"nogood.d" -MT"nogood.o" -o "nogood.o" "../nogood.c"
+Finished building: ../nogood.c
+ 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+20:13:09 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+20:13:14 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+20:21:41 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+20:22:27 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+20:36:35 **** Incremental Build of configuration Debug for project c 2.1 program (num) ****
+make all 
+Building target: c 2.1 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program (num)"  ./main.o   
+Finished building target: c 2.1 program 
+ 
+20:36:35 **** Incremental Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./fathm_ft.o   
+Finished building target: c 2.2 program 
+ 
+20:36:36 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+20:36:36 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+20:36:37 **** Build of configuration Debug for project c review (indiana sloth) ****
+make all 
+Building file: ../indiana.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"indiana.d" -MT"indiana.o" -o "indiana.o" "../indiana.c"
+Finished building: ../indiana.c
+ 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (indiana sloth)"  ./indiana.o   
+Finished building target: c review 
+ 
+20:36:37 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+20:36:41 **** Incremental Build of configuration Debug for project c review (indiana sloth) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (indiana sloth)"  ./indiana.o   
+Finished building target: c review 
+ 
+20:36:50 **** Incremental Build of configuration Debug for project c 2.1 program (num) ****
+make all 
+Building target: c 2.1 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program (num)"  ./main.o   
+Finished building target: c 2.1 program 
+ 
+20:36:50 **** Incremental Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./fathm_ft.o   
+Finished building target: c 2.2 program 
+ 
+20:36:50 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+20:36:51 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+20:36:51 **** Incremental Build of configuration Debug for project c review (indiana sloth) ****
+make all 
+Building file: ../indiana.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"indiana.d" -MT"indiana.o" -o "indiana.o" "../indiana.c"
+Finished building: ../indiana.c
+ 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (indiana sloth)"  ./indiana.o   
+Finished building target: c review 
+ 
+20:36:52 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+20:36:54 **** Incremental Build of configuration Debug for project c review (indiana sloth) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (indiana sloth)"  ./indiana.o   
+Finished building target: c review 
+ 
+21:06:22 **** Incremental Build of configuration Debug for project c 2.1 program (num) ****
+make all 
+Building target: c 2.1 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program (num)"  ./main.o   
+Finished building target: c 2.1 program 
+ 
+21:06:23 **** Incremental Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./fathm_ft.o   
+Finished building target: c 2.2 program 
+ 
+21:06:23 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+21:06:24 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+21:06:24 **** Clean-only build of configuration Debug for project c review (chapter 2) ****
+make clean 
+rm -rf  ./indiana.o  ./indiana.d  "c review (indiana sloth)"
+ 
+21:06:24 **** Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building file: ../indiana.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"indiana.d" -MT"indiana.o" -o "indiana.o" "../indiana.c"
+../indiana.c: In function ‘jolly’:
+../indiana.c:12:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘int’
+ int main(void)
+ ^
+../indiana.c:84:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+../indiana.c:89:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+../indiana.c:91:1: error: expected ‘{’ at end of input
+ }
+ ^
+make: *** [indiana.o] Error 1
+21:06:25 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+21:07:21 **** Incremental Build of configuration Debug for project c 2.1 program (num) ****
+make all 
+Building target: c 2.1 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program (num)"  ./main.o   
+Finished building target: c 2.1 program 
+ 
+21:07:22 **** Incremental Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./fathm_ft.o   
+Finished building target: c 2.2 program 
+ 
+21:07:22 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+21:07:23 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+21:07:23 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building file: ../indiana.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"indiana.d" -MT"indiana.o" -o "indiana.o" "../indiana.c"
+Finished building: ../indiana.c
+ 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+21:07:24 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+21:07:42 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+21:08:35 **** Incremental Build of configuration Debug for project c 2.1 program (num) ****
+make all 
+Building target: c 2.1 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program (num)"  ./main.o   
+Finished building target: c 2.1 program 
+ 
+21:08:35 **** Incremental Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./fathm_ft.o   
+Finished building target: c 2.2 program 
+ 
+21:08:35 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+21:08:36 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+21:08:36 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building file: ../indiana.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"indiana.d" -MT"indiana.o" -o "indiana.o" "../indiana.c"
+Finished building: ../indiana.c
+ 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+21:08:37 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+21:08:38 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+21:25:07 **** Incremental Build of configuration Debug for project c 2.1 program (num) ****
+make all 
+Building target: c 2.1 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program (num)"  ./main.o   
+Finished building target: c 2.1 program 
+ 
+21:25:07 **** Incremental Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./fathm_ft.o   
+Finished building target: c 2.2 program 
+ 
+21:25:08 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+21:25:08 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+21:25:08 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building file: ../indiana.c
+../indiana.c: In function ‘main’:
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"indiana.d" -MT"indiana.o" -o "indiana.o" "../indiana.c"
+../indiana.c:105:2: error: too many arguments to function ‘smile’
+  smile();smile();smile("\n");
+  ^
+../indiana.c:13:6: note: declared here
+ void smile(void); //prototype
+      ^
+../indiana.c:106:2: error: too many arguments to function ‘smile’
+  smile();smile("\n");
+  ^
+../indiana.c:13:6: note: declared here
+ void smile(void); //prototype
+      ^
+../indiana.c:107:2: error: too many arguments to function ‘smile’
+  smile("\n");
+  ^
+../indiana.c:13:6: note: declared here
+ void smile(void); //prototype
+      ^
+make: *** [indiana.o] Error 1
+21:25:09 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+21:25:11 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building file: ../indiana.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"indiana.d" -MT"indiana.o" -o "indiana.o" "../indiana.c"
+../indiana.c: In function ‘main’:
+../indiana.c:105:2: error: too many arguments to function ‘smile’
+  smile();smile();smile("\n");
+  ^
+../indiana.c:13:6: note: declared here
+ void smile(void); //prototype
+      ^
+../indiana.c:106:2: error: too many arguments to function ‘smile’
+  smile();smile("\n");
+  ^
+../indiana.c:13:6: note: declared here
+ void smile(void); //prototype
+      ^
+../indiana.c:107:2: error: too many arguments to function ‘smile’
+  smile("\n");
+  ^
+../indiana.c:13:6: note: declared here
+ void smile(void); //prototype
+      ^
+make: *** [indiana.o] Error 1
+21:25:45 **** Incremental Build of configuration Debug for project c 2.1 program (num) ****
+make all 
+Building target: c 2.1 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program (num)"  ./main.o   
+Finished building target: c 2.1 program 
+ 
+21:25:46 **** Incremental Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./fathm_ft.o   
+Finished building target: c 2.2 program 
+ 
+21:25:46 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+21:25:47 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+21:25:47 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building file: ../indiana.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"indiana.d" -MT"indiana.o" -o "indiana.o" "../indiana.c"
+Finished building: ../indiana.c
+ 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+21:25:47 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+21:25:51 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+21:34:06 **** Incremental Build of configuration Debug for project c 2.1 program (num) ****
+make all 
+Building target: c 2.1 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program (num)"  ./main.o   
+Finished building target: c 2.1 program 
+ 
+21:34:06 **** Incremental Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./fathm_ft.o   
+Finished building target: c 2.2 program 
+ 
+21:34:07 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+21:34:07 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+21:34:07 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building file: ../indiana.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"indiana.d" -MT"indiana.o" -o "indiana.o" "../indiana.c"
+Finished building: ../indiana.c
+ 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+21:34:08 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+21:34:10 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+21:35:06 **** Incremental Build of configuration Debug for project c 2.1 program (num) ****
+make all 
+Building target: c 2.1 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program (num)"  ./main.o   
+Finished building target: c 2.1 program 
+ 
+21:35:07 **** Incremental Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./fathm_ft.o   
+Finished building target: c 2.2 program 
+ 
+21:35:07 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+21:35:07 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+21:35:08 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building file: ../indiana.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"indiana.d" -MT"indiana.o" -o "indiana.o" "../indiana.c"
+../indiana.c: In function ‘main’:
+../indiana.c:49:2: error: stray ‘\’ in program
+  printf("schiermer"\n);
+  ^
+../indiana.c:49:21: error: expected ‘)’ before ‘n’
+  printf("schiermer"\n);
+                     ^
+make: *** [indiana.o] Error 1
+21:35:08 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+21:35:22 **** Incremental Build of configuration Debug for project c 2.1 program (num) ****
+make all 
+Building target: c 2.1 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program (num)"  ./main.o   
+Finished building target: c 2.1 program 
+ 
+21:35:22 **** Incremental Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./fathm_ft.o   
+Finished building target: c 2.2 program 
+ 
+21:35:22 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+21:35:23 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+21:35:24 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building file: ../indiana.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"indiana.d" -MT"indiana.o" -o "indiana.o" "../indiana.c"
+Finished building: ../indiana.c
+ 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+21:35:24 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+21:35:28 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+21:36:30 **** Incremental Build of configuration Debug for project c 2.1 program (num) ****
+make all 
+Building target: c 2.1 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program (num)"  ./main.o   
+Finished building target: c 2.1 program 
+ 
+21:36:31 **** Incremental Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./fathm_ft.o   
+Finished building target: c 2.2 program 
+ 
+21:36:31 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+21:36:31 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+21:36:32 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building file: ../indiana.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"indiana.d" -MT"indiana.o" -o "indiana.o" "../indiana.c"
+Finished building: ../indiana.c
+ 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+21:36:32 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+21:36:35 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+22:10:45 **** Incremental Build of configuration Debug for project c 2.1 program (num) ****
+make all 
+Building target: c 2.1 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program (num)"  ./main.o   
+Finished building target: c 2.1 program 
+ 
+22:10:46 **** Incremental Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./fathm_ft.o   
+Finished building target: c 2.2 program 
+ 
+22:10:46 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+22:10:47 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+22:10:47 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building file: ../indiana.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"indiana.d" -MT"indiana.o" -o "indiana.o" "../indiana.c"
+Finished building: ../indiana.c
+ 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+22:10:47 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+22:10:49 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+07:55:47 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+10:28:06 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+10:28:07 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+10:28:08 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+10:28:26 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+11:02:23 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+11:02:23 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+11:02:24 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building file: ../indiana.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"indiana.d" -MT"indiana.o" -o "indiana.o" "../indiana.c"
+Finished building: ../indiana.c
+ 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+11:02:38 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+16:28:42 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+16:28:43 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+16:28:44 **** Clean-only build of configuration Debug for project c 3.1 (the platinium) ****
+make clean 
+rm -rf  ./platinium.o  ./platinium.d  "c 3.1 (the platinium)"
+ 
+16:28:44 **** Build of configuration Debug for project c 3.1 (the platinium) ****
+make all 
+Building file: ../platinium.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"platinium.d" -MT"platinium.o" -o "platinium.o" "../platinium.c"
+Finished building: ../platinium.c
+ 
+Building target: c 3.1 
+Invoking: GCC C Linker
+gcc  -o "c 3.1 (the platinium)"  ./platinium.o   
+Finished building target: c 3.1 
+ 
+16:28:46 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building file: ../indiana.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"indiana.d" -MT"indiana.o" -o "indiana.o" "../indiana.c"
+Finished building: ../indiana.c
+ 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+16:28:49 **** Incremental Build of configuration Debug for project c 3.1 (the platinium) ****
+make all 
+Building target: c 3.1 
+Invoking: GCC C Linker
+gcc  -o "c 3.1 (the platinium)"  ./platinium.o   
+Finished building target: c 3.1 
+ 
+17:05:50 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+17:05:51 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+17:05:51 **** Incremental Build of configuration Debug for project c 3.1 (the platinium) ****
+make all 
+Building target: c 3.1 
+Invoking: GCC C Linker
+gcc  -o "c 3.1 (the platinium)"  ./platinium.o   
+Finished building target: c 3.1 
+ 
+17:05:52 **** Build of configuration Debug for project c 3.2 (print1) ****
+make all 
+Building file: ../print1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"print1.d" -MT"print1.o" -o "print1.o" "../print1.c"
+../print1.c: In function ‘main’:
+../print1.c:15:2: warning: too many arguments for format [-Wformat-extra-args]
+  printf("%d minus &d is %d\n", ten, 2, ten-two);
+  ^
+../print1.c:18:2: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+  printf("%d minus %d is %d", ten); //forgot 2 arguments.
+  ^
+../print1.c:18:2: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+Finished building: ../print1.c
+ 
+Building target: c 3.2 
+Invoking: GCC C Linker
+gcc  -o "c 3.2 (print1)"  ./print1.o   
+Finished building target: c 3.2 
+ 
+17:05:53 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+17:06:28 **** Incremental Build of configuration Debug for project c 3.2 (print1) ****
+make all 
+Building target: c 3.2 
+Invoking: GCC C Linker
+gcc  -o "c 3.2 (print1)"  ./print1.o   
+Finished building target: c 3.2 
+ 
+17:07:19 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+17:07:20 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+17:07:20 **** Incremental Build of configuration Debug for project c 3.1 (the platinium) ****
+make all 
+Building target: c 3.1 
+Invoking: GCC C Linker
+gcc  -o "c 3.1 (the platinium)"  ./platinium.o   
+Finished building target: c 3.1 
+ 
+17:07:21 **** Incremental Build of configuration Debug for project c 3.2 (print1) ****
+make all 
+Building file: ../print1.c
+../print1.c: In function ‘main’:
+../print1.c:15:2: warning: too many arguments for format [-Wformat-extra-args]
+  printf("%d minus &d is %d\n", ten, two, ten-two);
+  ^
+../print1.c:18:2: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+  printf("%d minus %d is %d", ten); //forgot 2 arguments.
+  ^
+../print1.c:18:2: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"print1.d" -MT"print1.o" -o "print1.o" "../print1.c"
+Finished building: ../print1.c
+ 
+Building target: c 3.2 
+Invoking: GCC C Linker
+gcc  -o "c 3.2 (print1)"  ./print1.o   
+Finished building target: c 3.2 
+ 
+17:07:21 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+17:07:32 **** Incremental Build of configuration Debug for project c 3.2 (print1) ****
+make all 
+Building target: c 3.2 
+Invoking: GCC C Linker
+gcc  -o "c 3.2 (print1)"  ./print1.o   
+Finished building target: c 3.2 
+ 
+17:07:43 **** Incremental Build of configuration Debug for project c 3.2 (print1) ****
+make all 
+Building target: c 3.2 
+Invoking: GCC C Linker
+gcc  -o "c 3.2 (print1)"  ./print1.o   
+Finished building target: c 3.2 
+ 
+17:07:55 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+17:07:55 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+17:07:56 **** Incremental Build of configuration Debug for project c 3.1 (the platinium) ****
+make all 
+Building target: c 3.1 
+Invoking: GCC C Linker
+gcc  -o "c 3.1 (the platinium)"  ./platinium.o   
+Finished building target: c 3.1 
+ 
+17:07:56 **** Incremental Build of configuration Debug for project c 3.2 (print1) ****
+make all 
+Building target: c 3.2 
+Invoking: GCC C Linker
+gcc  -o "c 3.2 (print1)"  ./print1.o   
+Finished building target: c 3.2 
+ 
+17:07:57 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+17:08:02 **** Incremental Build of configuration Debug for project c 3.2 (print1) ****
+make all 
+Building target: c 3.2 
+Invoking: GCC C Linker
+gcc  -o "c 3.2 (print1)"  ./print1.o   
+Finished building target: c 3.2 
+ 
+17:08:31 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+17:08:31 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+17:08:32 **** Incremental Build of configuration Debug for project c 3.1 (the platinium) ****
+make all 
+Building target: c 3.1 
+Invoking: GCC C Linker
+gcc  -o "c 3.1 (the platinium)"  ./platinium.o   
+Finished building target: c 3.1 
+ 
+17:08:32 **** Incremental Build of configuration Debug for project c 3.2 (print1) ****
+make all 
+Building target: c 3.2 
+Invoking: GCC C Linker
+gcc  -o "c 3.2 (print1)"  ./print1.o   
+Finished building target: c 3.2 
+ 
+17:08:33 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+17:08:37 **** Incremental Build of configuration Debug for project c 3.2 (print1) ****
+make all 
+Building target: c 3.2 
+Invoking: GCC C Linker
+gcc  -o "c 3.2 (print1)"  ./print1.o   
+Finished building target: c 3.2 
+ 
+17:09:33 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+17:09:34 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+17:09:34 **** Incremental Build of configuration Debug for project c 3.1 (the platinium) ****
+make all 
+Building target: c 3.1 
+Invoking: GCC C Linker
+gcc  -o "c 3.1 (the platinium)"  ./platinium.o   
+Finished building target: c 3.1 
+ 
+17:09:35 **** Incremental Build of configuration Debug for project c 3.2 (print1) ****
+make all 
+../print1.c: In function ‘main’:
+Building file: ../print1.c
+../print1.c:15:2: warning: too many arguments for format [-Wformat-extra-args]
+  printf("%d minus &d is %d\n", ten, two, ten-two);
+  ^
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"print1.d" -MT"print1.o" -o "print1.o" "../print1.c"
+Finished building: ../print1.c
+ 
+Building target: c 3.2 
+Invoking: GCC C Linker
+gcc  -o "c 3.2 (print1)"  ./print1.o   
+Finished building target: c 3.2 
+ 
+17:09:35 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+17:09:38 **** Incremental Build of configuration Debug for project c 3.2 (print1) ****
+make all 
+Building target: c 3.2 
+Invoking: GCC C Linker
+gcc  -o "c 3.2 (print1)"  ./print1.o   
+Finished building target: c 3.2 
+ 
+17:09:57 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+17:09:58 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+17:09:58 **** Incremental Build of configuration Debug for project c 3.1 (the platinium) ****
+make all 
+Building target: c 3.1 
+Invoking: GCC C Linker
+gcc  -o "c 3.1 (the platinium)"  ./platinium.o   
+Finished building target: c 3.1 
+ 
+17:09:59 **** Incremental Build of configuration Debug for project c 3.2 (print1) ****
+make all 
+Building file: ../print1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"print1.d" -MT"print1.o" -o "print1.o" "../print1.c"
+../print1.c: In function ‘main’:
+../print1.c:18:2: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+  printf("%d minus %d is %d", ten); //forgot 2 arguments.
+  ^
+../print1.c:18:2: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+Finished building: ../print1.c
+ 
+Building target: c 3.2 
+Invoking: GCC C Linker
+gcc  -o "c 3.2 (print1)"  ./print1.o   
+Finished building target: c 3.2 
+ 
+17:09:59 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+17:10:02 **** Incremental Build of configuration Debug for project c 3.2 (print1) ****
+make all 
+Building target: c 3.2 
+Invoking: GCC C Linker
+gcc  -o "c 3.2 (print1)"  ./print1.o   
+Finished building target: c 3.2 
+ 
+17:20:36 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+17:20:37 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+17:20:37 **** Incremental Build of configuration Debug for project c 3.1 (the platinium) ****
+make all 
+Building target: c 3.1 
+Invoking: GCC C Linker
+gcc  -o "c 3.1 (the platinium)"  ./platinium.o   
+Finished building target: c 3.1 
+ 
+17:20:37 **** Incremental Build of configuration Debug for project c 3.2 (print1) ****
+make all 
+Building file: ../print1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"print1.d" -MT"print1.o" -o "print1.o" "../print1.c"
+../print1.c: In function ‘main’:
+../print1.c:20:2: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+  printf("%d minus %d is %d\n", ten); //forgot 2 arguments.
+  ^
+../print1.c:20:2: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+Finished building: ../print1.c
+ 
+Building target: c 3.2 
+Invoking: GCC C Linker
+gcc  -o "c 3.2 (print1)"  ./print1.o   
+Finished building target: c 3.2 
+ 
+17:20:38 **** Build of configuration Debug for project c 3.3 (bases) ****
+make all 
+Building file: ../bases.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"bases.d" -MT"bases.o" -o "bases.o" "../bases.c"
+Finished building: ../bases.c
+ 
+Building target: c 3.3 
+Invoking: GCC C Linker
+gcc  -o "c 3.3 (bases)"  ./bases.o   
+Finished building target: c 3.3 
+ 
+17:20:39 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+17:20:55 **** Incremental Build of configuration Debug for project c 3.3 (bases) ****
+make all 
+Building target: c 3.3 
+Invoking: GCC C Linker
+gcc  -o "c 3.3 (bases)"  ./bases.o   
+Finished building target: c 3.3 
+ 
+17:25:09 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+17:25:09 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+17:25:10 **** Incremental Build of configuration Debug for project c 3.1 (the platinium) ****
+make all 
+Building target: c 3.1 
+Invoking: GCC C Linker
+gcc  -o "c 3.1 (the platinium)"  ./platinium.o   
+Finished building target: c 3.1 
+ 
+17:25:10 **** Incremental Build of configuration Debug for project c 3.2 (print1) ****
+make all 
+Building file: ../print1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"print1.d" -MT"print1.o" -o "print1.o" "../print1.c"
+../print1.c: In function ‘main’:
+../print1.c:20:2: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+  printf("%d minus %d is %d\n", ten); //forgot 2 arguments.
+  ^
+../print1.c:20:2: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+Finished building: ../print1.c
+ 
+Building target: c 3.2 
+Invoking: GCC C Linker
+gcc  -o "c 3.2 (print1)"  ./print1.o   
+Finished building target: c 3.2 
+ 
+17:25:10 **** Incremental Build of configuration Debug for project c 3.3 (bases) ****
+make all 
+Building target: c 3.3 
+Invoking: GCC C Linker
+gcc  -o "c 3.3 (bases)"  ./bases.o   
+Finished building target: c 3.3 
+ 
+17:25:11 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+17:50:29 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+17:50:29 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+17:50:30 **** Incremental Build of configuration Debug for project c 3.1 (the platinium) ****
+make all 
+Building target: c 3.1 
+Invoking: GCC C Linker
+gcc  -o "c 3.1 (the platinium)"  ./platinium.o   
+Finished building target: c 3.1 
+ 
+17:50:30 **** Incremental Build of configuration Debug for project c 3.2 (print1) ****
+make all 
+Building target: c 3.2 
+Invoking: GCC C Linker
+gcc  -o "c 3.2 (print1)"  ./print1.o   
+Finished building target: c 3.2 
+ 
+17:50:30 **** Incremental Build of configuration Debug for project c 3.3 (bases) ****
+make all 
+Building target: c 3.3 
+Invoking: GCC C Linker
+gcc  -o "c 3.3 (bases)"  ./bases.o   
+Finished building target: c 3.3 
+ 
+17:50:31 **** Build of configuration Debug for project c 3.4 (print2) ****
+make all 
+Building file: ../print2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"print2.d" -MT"print2.o" -o "print2.o" "../print2.c"
+../print2.c: In function ‘main’:
+../print2.c:18:2: warning: format ‘%hd’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
+  printf("big = &ld and not %hd\n", big, big);
+  ^
+../print2.c:18:2: warning: too many arguments for format [-Wformat-extra-args]
+../print2.c:19:2: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 3 has type ‘long long int’ [-Wformat=]
+  printf("verybig = %lld and not %ld\n", verybig, verybig);
+  ^
+Finished building: ../print2.c
+ 
+Building target: c 3.4 
+Invoking: GCC C Linker
+gcc  -o "c 3.4 (print2)"  ./print2.o   
+Finished building target: c 3.4 
+ 
+17:50:31 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+17:50:34 **** Incremental Build of configuration Debug for project c 3.4 (print2) ****
+make all 
+Building target: c 3.4 
+Invoking: GCC C Linker
+gcc  -o "c 3.4 (print2)"  ./print2.o   
+Finished building target: c 3.4 
+ 
+17:50:52 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+17:50:52 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+17:50:53 **** Incremental Build of configuration Debug for project c 3.1 (the platinium) ****
+make all 
+Building target: c 3.1 
+Invoking: GCC C Linker
+gcc  -o "c 3.1 (the platinium)"  ./platinium.o   
+Finished building target: c 3.1 
+ 
+17:50:53 **** Incremental Build of configuration Debug for project c 3.2 (print1) ****
+make all 
+Building target: c 3.2 
+Invoking: GCC C Linker
+gcc  -o "c 3.2 (print1)"  ./print1.o   
+Finished building target: c 3.2 
+ 
+17:50:53 **** Incremental Build of configuration Debug for project c 3.3 (bases) ****
+make all 
+Building target: c 3.3 
+Invoking: GCC C Linker
+gcc  -o "c 3.3 (bases)"  ./bases.o   
+Finished building target: c 3.3 
+ 
+17:50:54 **** Incremental Build of configuration Debug for project c 3.4 (print2) ****
+make all 
+Building file: ../print2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"print2.d" -MT"print2.o" -o "print2.o" "../print2.c"
+../print2.c: In function ‘main’:
+../print2.c:18:2: warning: format ‘%hd’ expects argument of type ‘int’, but argument 3 has type ‘long int’ [-Wformat=]
+  printf("big = %ld and not %hd\n", big, big);
+  ^
+../print2.c:19:2: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 3 has type ‘long long int’ [-Wformat=]
+  printf("verybig = %lld and not %ld\n", verybig, verybig);
+  ^
+Finished building: ../print2.c
+ 
+Building target: c 3.4 
+Invoking: GCC C Linker
+gcc  -o "c 3.4 (print2)"  ./print2.o   
+Finished building target: c 3.4 
+ 
+17:50:54 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+17:50:57 **** Incremental Build of configuration Debug for project c 3.4 (print2) ****
+make all 
+Building target: c 3.4 
+Invoking: GCC C Linker
+gcc  -o "c 3.4 (print2)"  ./print2.o   
+Finished building target: c 3.4 
+ 
+18:15:17 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+18:15:18 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+18:15:18 **** Incremental Build of configuration Debug for project c 3.1 (the platinium) ****
+make all 
+Building target: c 3.1 
+Invoking: GCC C Linker
+gcc  -o "c 3.1 (the platinium)"  ./platinium.o   
+Finished building target: c 3.1 
+ 
+18:15:19 **** Incremental Build of configuration Debug for project c 3.2 (print1) ****
+make all 
+Building target: c 3.2 
+Invoking: GCC C Linker
+gcc  -o "c 3.2 (print1)"  ./print1.o   
+Finished building target: c 3.2 
+ 
+18:15:19 **** Incremental Build of configuration Debug for project c 3.3 (bases) ****
+make all 
+Building target: c 3.3 
+Invoking: GCC C Linker
+gcc  -o "c 3.3 (bases)"  ./bases.o   
+Finished building target: c 3.3 
+ 
+18:15:20 **** Incremental Build of configuration Debug for project c 3.4 (print2) ****
+make all 
+Building target: c 3.4 
+Invoking: GCC C Linker
+gcc  -o "c 3.4 (print2)"  ./print2.o   
+Finished building target: c 3.4 
+ 
+18:15:20 **** Build of configuration Debug for project c 3.5 (charcode) ****
+make all 
+Building file: ../charcode.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"charcode.d" -MT"charcode.o" -o "charcode.o" "../charcode.c"
+Finished building: ../charcode.c
+ 
+Building target: c 3.5 
+Invoking: GCC C Linker
+gcc  -o "c 3.5 (charcode)"  ./charcode.o   
+Finished building target: c 3.5 
+ 
+18:15:20 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+18:15:28 **** Incremental Build of configuration Debug for project c 3.5 (charcode) ****
+make all 
+Building target: c 3.5 
+Invoking: GCC C Linker
+gcc  -o "c 3.5 (charcode)"  ./charcode.o   
+Finished building target: c 3.5 
+ 
+18:20:50 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+18:20:50 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+18:20:50 **** Incremental Build of configuration Debug for project c 3.1 (the platinium) ****
+make all 
+Building target: c 3.1 
+Invoking: GCC C Linker
+gcc  -o "c 3.1 (the platinium)"  ./platinium.o   
+Finished building target: c 3.1 
+ 
+18:20:51 **** Incremental Build of configuration Debug for project c 3.2 (print1) ****
+make all 
+Building target: c 3.2 
+Invoking: GCC C Linker
+gcc  -o "c 3.2 (print1)"  ./print1.o   
+Finished building target: c 3.2 
+ 
+18:20:51 **** Incremental Build of configuration Debug for project c 3.3 (bases) ****
+make all 
+Building target: c 3.3 
+Invoking: GCC C Linker
+gcc  -o "c 3.3 (bases)"  ./bases.o   
+Finished building target: c 3.3 
+ 
+18:20:52 **** Incremental Build of configuration Debug for project c 3.4 (print2) ****
+make all 
+Building target: c 3.4 
+Invoking: GCC C Linker
+gcc  -o "c 3.4 (print2)"  ./print2.o   
+Finished building target: c 3.4 
+ 
+18:20:52 **** Incremental Build of configuration Debug for project c 3.5 (charcode) ****
+make all 
+Building file: ../charcode.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"charcode.d" -MT"charcode.o" -o "charcode.o" "../charcode.c"
+../charcode.c: In function ‘main’:
+../charcode.c:16:2: warning: implicit declaration of function ‘gotoxy’ [-Wimplicit-function-declaration]
+  gotoxy(2,1);
+  ^
+Finished building: ../charcode.c
+ 
+Building target: c 3.5 
+Invoking: GCC C Linker
+gcc  -o "c 3.5 (charcode)"  ./charcode.o   
+./charcode.o: In function `main':
+/home/jinxluck/eclipse-workspaces/practice space/c 3.5 (charcode)/Debug/../charcode.c:16: undefined reference to `gotoxy'
+collect2: error: ld returned 1 exit status
+make: *** [c 3.5 (charcode)] Error 1
+18:20:53 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+18:21:52 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+18:21:52 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+18:21:53 **** Incremental Build of configuration Debug for project c 3.1 (the platinium) ****
+make all 
+Building target: c 3.1 
+Invoking: GCC C Linker
+gcc  -o "c 3.1 (the platinium)"  ./platinium.o   
+Finished building target: c 3.1 
+ 
+18:21:53 **** Incremental Build of configuration Debug for project c 3.2 (print1) ****
+make all 
+Building target: c 3.2 
+Invoking: GCC C Linker
+gcc  -o "c 3.2 (print1)"  ./print1.o   
+Finished building target: c 3.2 
+ 
+18:21:54 **** Incremental Build of configuration Debug for project c 3.3 (bases) ****
+make all 
+Building target: c 3.3 
+Invoking: GCC C Linker
+gcc  -o "c 3.3 (bases)"  ./bases.o   
+Finished building target: c 3.3 
+ 
+18:21:54 **** Incremental Build of configuration Debug for project c 3.4 (print2) ****
+make all 
+Building target: c 3.4 
+Invoking: GCC C Linker
+gcc  -o "c 3.4 (print2)"  ./print2.o   
+Finished building target: c 3.4 
+ 
+18:21:54 **** Incremental Build of configuration Debug for project c 3.5 (charcode) ****
+make all 
+Building file: ../charcode.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"charcode.d" -MT"charcode.o" -o "charcode.o" "../charcode.c"
+Finished building: ../charcode.c
+ 
+Building target: c 3.5 
+Invoking: GCC C Linker
+gcc  -o "c 3.5 (charcode)"  ./charcode.o   
+Finished building target: c 3.5 
+ 
+18:21:55 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+19:02:03 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+19:02:59 **** Incremental Build of configuration Debug for project c 3.1 (the platinium) ****
+make all 
+Building target: c 3.1 
+Invoking: GCC C Linker
+gcc  -o "c 3.1 (the platinium)"  ./platinium.o   
+Finished building target: c 3.1 
+ 
+19:03:03 **** Incremental Build of configuration Debug for project c 3.1 (the platinium) ****
+make all 
+Building target: c 3.1 
+Invoking: GCC C Linker
+gcc  -o "c 3.1 (the platinium)"  ./platinium.o   
+Finished building target: c 3.1 
+ 
+19:03:06 **** Incremental Build of configuration Debug for project c 3.1 (the platinium) ****
+make all 
+Building target: c 3.1 
+Invoking: GCC C Linker
+gcc  -o "c 3.1 (the platinium)"  ./platinium.o   
+Finished building target: c 3.1 
+ 
+19:22:03 **** Build of configuration Debug for project c 2.1 (first project) ****
+make all 
+Building file: ../first.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"first.d" -MT"first.o" -o "first.o" "../first.c"
+Finished building: ../first.c
+ 
+Building target: c 2.1 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 (first project)"  ./first.o   
+Finished building target: c 2.1 
+ 
+19:22:05 **** Incremental Build of configuration Debug for project c 2.1 (first project) ****
+make all 
+Building target: c 2.1 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 (first project)"  ./first.o   
+Finished building target: c 2.1 
+ 
+19:22:13 **** Incremental Build of configuration Debug for project c 2.1 (first project) ****
+make all 
+Building file: ../first.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"first.d" -MT"first.o" -o "first.o" "../first.c"
+Finished building: ../first.c
+ 
+Building target: c 2.1 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 (first project)"  ./first.o   
+Finished building target: c 2.1 
+ 
+19:22:15 **** Incremental Build of configuration Debug for project c 2.1 (first project) ****
+make all 
+Building target: c 2.1 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 (first project)"  ./first.o   
+Finished building target: c 2.1 
+ 
+19:26:50 **** Build of configuration Debug for project c 2.2 (the fathom feet) ****
+make all 
+Building file: ../fathm.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fathm.d" -MT"fathm.o" -o "fathm.o" "../fathm.c"
+Finished building: ../fathm.c
+ 
+Building target: c 2.2 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 (the fathom feet)"  ./fathm.o   
+Finished building target: c 2.2 
+ 
+19:26:56 **** Incremental Build of configuration Debug for project c 2.2 (the fathom feet) ****
+make all 
+Building file: ../fathm.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fathm.d" -MT"fathm.o" -o "fathm.o" "../fathm.c"
+Finished building: ../fathm.c
+ 
+Building target: c 2.2 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 (the fathom feet)"  ./fathm.o   
+Finished building target: c 2.2 
+ 
+19:26:59 **** Incremental Build of configuration Debug for project c 2.2 (the fathom feet) ****
+make all 
+Building target: c 2.2 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 (the fathom feet)"  ./fathm.o   
+Finished building target: c 2.2 
+ 
+19:39:29 **** Incremental Build of configuration Debug for project c 3.5 (charcode) ****
+make all 
+Building file: ../charcode.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"charcode.d" -MT"charcode.o" -o "charcode.o" "../charcode.c"
+Finished building: ../charcode.c
+ 
+Building target: c 3.5 
+Invoking: GCC C Linker
+gcc  -o "c 3.5 (charcode)"  ./charcode.o   
+Finished building target: c 3.5 
+ 
+19:39:31 **** Incremental Build of configuration Debug for project c 3.5 (charcode) ****
+make all 
+Building target: c 3.5 
+Invoking: GCC C Linker
+gcc  -o "c 3.5 (charcode)"  ./charcode.o   
+Finished building target: c 3.5 
+ 
+10:13:38 **** Incremental Build of configuration Debug for project c 3.1 (the platinium) ****
+make all 
+Building target: c 3.1 
+Invoking: GCC C Linker
+gcc  -o "c 3.1 (the platinium)"  ./platinium.o   
+Finished building target: c 3.1 
+ 
+10:13:39 **** Incremental Build of configuration Debug for project c 3.1 (the platinium) ****
+make all 
+Building target: c 3.1 
+Invoking: GCC C Linker
+gcc  -o "c 3.1 (the platinium)"  ./platinium.o   
+Finished building target: c 3.1 
+ 
+19:10:53 **** Incremental Build of configuration Debug for project c 2.1 (first project) ****
+make all 
+Building file: ../first.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"first.d" -MT"first.o" -o "first.o" "../first.c"
+Finished building: ../first.c
+ 
+Building target: c 2.1 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 (first project)"  ./first.o   
+Finished building target: c 2.1 
+ 
+19:10:58 **** Incremental Build of configuration Debug for project c 2.1 (first project) ****
+make all 
+Building target: c 2.1 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 (first project)"  ./first.o   
+Finished building target: c 2.1 
+ 
+14:57:15 **** Build of configuration Debug for project c 4.1 (talkback) ****
+make all 
+Building file: ../talkback.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"talkback.d" -MT"talkback.o" -o "talkback.o" "../talkback.c"
+../talkback.c: In function ‘main’:
+../talkback.c:20:2: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[40]’ [-Wformat=]
+  scanf("%s", &name);
+  ^
+Finished building: ../talkback.c
+ 
+Building target: c 4.1 
+Invoking: GCC C Linker
+gcc  -o "c 4.1 (talkback)"  ./talkback.o   
+Finished building target: c 4.1 
+ 
+14:57:19 **** Incremental Build of configuration Debug for project c 4.1 (talkback) ****
+make all 
+Building target: c 4.1 
+Invoking: GCC C Linker
+gcc  -o "c 4.1 (talkback)"  ./talkback.o   
+Finished building target: c 4.1 
+ 
+14:57:52 **** Incremental Build of configuration Debug for project c 4.1 (talkback) ****
+make all 
+Building file: ../talkback.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"talkback.d" -MT"talkback.o" -o "talkback.o" "../talkback.c"
+../talkback.c: In function ‘main’:
+../talkback.c:20:2: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[39]’ [-Wformat=]
+  scanf("%s", &name);
+  ^
+Finished building: ../talkback.c
+ 
+Building target: c 4.1 
+Invoking: GCC C Linker
+gcc  -o "c 4.1 (talkback)"  ./talkback.o   
+Finished building target: c 4.1 
+ 
+14:57:56 **** Incremental Build of configuration Debug for project c 4.1 (talkback) ****
+make all 
+Building target: c 4.1 
+Invoking: GCC C Linker
+gcc  -o "c 4.1 (talkback)"  ./talkback.o   
+Finished building target: c 4.1 
+ 
+14:58:13 **** Incremental Build of configuration Debug for project c 4.1 (talkback) ****
+make all 
+Building file: ../talkback.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"talkback.d" -MT"talkback.o" -o "talkback.o" "../talkback.c"
+../talkback.c: In function ‘main’:
+../talkback.c:20:2: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[40]’ [-Wformat=]
+  scanf("%s", &name);
+  ^
+Finished building: ../talkback.c
+ 
+Building target: c 4.1 
+Invoking: GCC C Linker
+gcc  -o "c 4.1 (talkback)"  ./talkback.o   
+Finished building target: c 4.1 
+ 
+14:58:46 **** Incremental Build of configuration Debug for project c 4.1 (talkback) ****
+make all 
+Building file: ../talkback.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"talkback.d" -MT"talkback.o" -o "talkback.o" "../talkback.c"
+../talkback.c: In function ‘main’:
+../talkback.c:20:2: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[40]’ [-Wformat=]
+  scanf("%s", &name);
+  ^
+Finished building: ../talkback.c
+ 
+Building target: c 4.1 
+Invoking: GCC C Linker
+gcc  -o "c 4.1 (talkback)"  ./talkback.o   
+Finished building target: c 4.1 
+ 
+14:58:53 **** Incremental Build of configuration Debug for project c 4.1 (talkback) ****
+make all 
+Building file: ../talkback.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"talkback.d" -MT"talkback.o" -o "talkback.o" "../talkback.c"
+../talkback.c: In function ‘main’:
+../talkback.c:20:2: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[40]’ [-Wformat=]
+  scanf("%s", &name);
+  ^
+Finished building: ../talkback.c
+ 
+Building target: c 4.1 
+Invoking: GCC C Linker
+gcc  -o "c 4.1 (talkback)"  ./talkback.o   
+Finished building target: c 4.1 
+ 
+14:59:25 **** Incremental Build of configuration Debug for project c 4.1 (talkback) ****
+make all 
+Building file: ../talkback.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"talkback.d" -MT"talkback.o" -o "talkback.o" "../talkback.c"
+../talkback.c: In function ‘main’:
+../talkback.c:20:2: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[40]’ [-Wformat=]
+  scanf("%s", &name);
+  ^
+Finished building: ../talkback.c
+ 
+Building target: c 4.1 
+Invoking: GCC C Linker
+gcc  -o "c 4.1 (talkback)"  ./talkback.o   
+Finished building target: c 4.1 
+ 
+14:59:27 **** Incremental Build of configuration Debug for project c 4.1 (talkback) ****
+make all 
+Building target: c 4.1 
+Invoking: GCC C Linker
+gcc  -o "c 4.1 (talkback)"  ./talkback.o   
+Finished building target: c 4.1 
+ 
+15:01:42 **** Incremental Build of configuration Debug for project c 4.1 (talkback) ****
+make all 
+Building file: ../talkback.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"talkback.d" -MT"talkback.o" -o "talkback.o" "../talkback.c"
+Finished building: ../talkback.c
+ 
+Building target: c 4.1 
+Invoking: GCC C Linker
+gcc  -o "c 4.1 (talkback)"  ./talkback.o   
+Finished building target: c 4.1 
+ 
+15:10:02 **** Build of configuration Debug for project c 4.2 (praise) ****
+make all 
+Building file: ../praise.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"praise.d" -MT"praise.o" -o "praise.o" "../praise.c"
+Finished building: ../praise.c
+ 
+Building target: c 4.2 
+Invoking: GCC C Linker
+gcc  -o "c 4.2 (praise)"  ./praise.o   
+Finished building target: c 4.2 
+ 
+15:10:06 **** Incremental Build of configuration Debug for project c 4.2 (praise) ****
+make all 
+Building target: c 4.2 
+Invoking: GCC C Linker
+gcc  -o "c 4.2 (praise)"  ./praise.o   
+Finished building target: c 4.2 
+ 
+15:26:09 **** Build of configuration Debug for project c 4.3 (praise2) ****
+make all 
+Building file: ../praise2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"praise2.d" -MT"praise2.o" -o "praise2.o" "../praise2.c"
+Finished building: ../praise2.c
+ 
+Building target: c 4.3 
+Invoking: GCC C Linker
+gcc  -o "c 4.3 (praise2)"  ./praise2.o   
+Finished building target: c 4.3 
+ 
+15:26:13 **** Incremental Build of configuration Debug for project c 4.3 (praise2) ****
+make all 
+Building target: c 4.3 
+Invoking: GCC C Linker
+gcc  -o "c 4.3 (praise2)"  ./praise2.o   
+Finished building target: c 4.3 
+ 
+15:26:58 **** Incremental Build of configuration Debug for project c 4.3 (praise2) ****
+make all 
+Building file: ../praise2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"praise2.d" -MT"praise2.o" -o "praise2.o" "../praise2.c"
+Finished building: ../praise2.c
+ 
+Building target: c 4.3 
+Invoking: GCC C Linker
+gcc  -o "c 4.3 (praise2)"  ./praise2.o   
+Finished building target: c 4.3 
+ 
+15:26:59 **** Incremental Build of configuration Debug for project c 4.3 (praise2) ****
+make all 
+Building target: c 4.3 
+Invoking: GCC C Linker
+gcc  -o "c 4.3 (praise2)"  ./praise2.o   
+Finished building target: c 4.3 
+ 
+15:43:53 **** Build of configuration Debug for project c 4.4 (pizza) ****
+make all 
+Building file: ../pizza.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pizza.d" -MT"pizza.o" -o "pizza.o" "../pizza.c"
+Finished building: ../pizza.c
+ 
+Building target: c 4.4 
+Invoking: GCC C Linker
+gcc  -o "c 4.4 (pizza)"  ./pizza.o   
+Finished building target: c 4.4 
+ 
+15:43:56 **** Incremental Build of configuration Debug for project c 4.4 (pizza) ****
+make all 
+Building target: c 4.4 
+Invoking: GCC C Linker
+gcc  -o "c 4.4 (pizza)"  ./pizza.o   
+Finished building target: c 4.4 
+ 
+16:42:56 **** Build of configuration Debug for project c 4.15 (input program) ****
+make all 
+Building file: ../input.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"input.d" -MT"input.o" -o "input.o" "../input.c"
+Finished building: ../input.c
+ 
+Building target: c 4.15 
+Invoking: GCC C Linker
+gcc  -o "c 4.15 (input program)"  ./input.o   
+Finished building target: c 4.15 
+ 
+16:43:00 **** Incremental Build of configuration Debug for project c 4.15 (input program) ****
+make all 
+Building target: c 4.15 
+Invoking: GCC C Linker
+gcc  -o "c 4.15 (input program)"  ./input.o   
+Finished building target: c 4.15 
+ 
+16:49:23 **** Build of configuration Debug for project scanf -> printf test ****
+make all 
+Building file: ../testytest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testytest.d" -MT"testytest.o" -o "testytest.o" "../testytest.c"
+Finished building: ../testytest.c
+ 
+Building target: scanf -> printf test
+Invoking: GCC C Linker
+gcc  -o "scanf -> printf test"  ./testytest.o   
+Finished building target: scanf -> printf test
+ 
+16:49:25 **** Incremental Build of configuration Debug for project scanf -> printf test ****
+make all 
+make: Nothing to be done for `all'.
+16:52:10 **** Incremental Build of configuration Debug for project scanf -> printf test ****
+make all 
+Building file: ../testytest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testytest.d" -MT"testytest.o" -o "testytest.o" "../testytest.c"
+../testytest.c: In function ‘main’:
+../testytest.c:14:2: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+  printf("Enter number: %f",scanf("%f",&v1));
+  ^
+../testytest.c:12:12: warning: unused variable ‘v2’ [-Wunused-variable]
+  float v1, v2;
+            ^
+Finished building: ../testytest.c
+ 
+Building target: scanf -> printf test
+Invoking: GCC C Linker
+gcc  -o "scanf -> printf test"  ./testytest.o   
+Finished building target: scanf -> printf test
+ 
+16:52:13 **** Incremental Build of configuration Debug for project scanf -> printf test ****
+make all 
+make: Nothing to be done for `all'.
+16:57:26 **** Incremental Build of configuration Debug for project scanf -> printf test ****
+make all 
+Building file: ../testytest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testytest.d" -MT"testytest.o" -o "testytest.o" "../testytest.c"
+../testytest.c: In function ‘main’:
+../testytest.c:14:2: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+  printf("Enter number:%f ",scanf("%d",&v1));
+  ^
+../testytest.c:12:10: warning: unused variable ‘v2’ [-Wunused-variable]
+  int v1, v2;
+          ^
+Finished building: ../testytest.c
+ 
+Building target: scanf -> printf test
+Invoking: GCC C Linker
+gcc  -o "scanf -> printf test"  ./testytest.o   
+Finished building target: scanf -> printf test
+ 
+16:57:56 **** Incremental Build of configuration Debug for project scanf -> printf test ****
+make all 
+Building file: ../testytest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testytest.d" -MT"testytest.o" -o "testytest.o" "../testytest.c"
+../testytest.c: In function ‘main’:
+../testytest.c:14:2: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+  printf("Enter number:%f ",scanf("%d",&v1));
+  ^
+Finished building: ../testytest.c
+ 
+Building target: scanf -> printf test
+Invoking: GCC C Linker
+gcc  -o "scanf -> printf test"  ./testytest.o   
+Finished building target: scanf -> printf test
+ 
+16:58:05 **** Incremental Build of configuration Debug for project scanf -> printf test ****
+make all 
+Building file: ../testytest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testytest.d" -MT"testytest.o" -o "testytest.o" "../testytest.c"
+Finished building: ../testytest.c
+ 
+Building target: scanf -> printf test
+Invoking: GCC C Linker
+gcc  -o "scanf -> printf test"  ./testytest.o   
+Finished building target: scanf -> printf test
+ 
+16:58:08 **** Incremental Build of configuration Debug for project scanf -> printf test ****
+make all 
+make: Nothing to be done for `all'.
+16:58:23 **** Incremental Build of configuration Debug for project scanf -> printf test ****
+make all 
+make: Nothing to be done for `all'.
+16:58:45 **** Incremental Build of configuration Debug for project scanf -> printf test ****
+make all 
+make: Nothing to be done for `all'.
+17:34:52 **** Build of configuration Debug for project c 4.16 (varwid) ****
+make all 
+Building file: ../varwid.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"varwid.d" -MT"varwid.o" -o "varwid.o" "../varwid.c"
+Finished building: ../varwid.c
+ 
+Building target: c 4.16 
+Invoking: GCC C Linker
+gcc  -o "c 4.16 (varwid)"  ./varwid.o   
+Finished building target: c 4.16 
+ 
+17:34:57 **** Incremental Build of configuration Debug for project c 4.16 (varwid) ****
+make all 
+Building target: c 4.16 
+Invoking: GCC C Linker
+gcc  -o "c 4.16 (varwid)"  ./varwid.o   
+Finished building target: c 4.16 
+ 
+17:35:20 **** Incremental Build of configuration Debug for project c 4.16 (varwid) ****
+make all 
+Building file: ../varwid.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"varwid.d" -MT"varwid.o" -o "varwid.o" "../varwid.c"
+Finished building: ../varwid.c
+ 
+Building target: c 4.16 
+Invoking: GCC C Linker
+gcc  -o "c 4.16 (varwid)"  ./varwid.o   
+Finished building target: c 4.16 
+ 
+17:35:21 **** Incremental Build of configuration Debug for project c 4.16 (varwid) ****
+make all 
+Building target: c 4.16 
+Invoking: GCC C Linker
+gcc  -o "c 4.16 (varwid)"  ./varwid.o   
+Finished building target: c 4.16 
+ 
+17:42:51 **** Build of configuration Debug for project c 2.17 (skip) ****
+make all 
+Building file: ../skip.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"skip.d" -MT"skip.o" -o "skip.o" "../skip.c"
+Finished building: ../skip.c
+ 
+Building target: c 2.17 
+Invoking: GCC C Linker
+gcc  -o "c 2.17 (skip)"  ./skip.o   
+Finished building target: c 2.17 
+ 
+17:42:53 **** Incremental Build of configuration Debug for project c 2.17 (skip) ****
+make all 
+Building target: c 2.17 
+Invoking: GCC C Linker
+gcc  -o "c 2.17 (skip)"  ./skip.o   
+Finished building target: c 2.17 
+ 
+18:06:48 **** Build of configuration Debug for project c 5.1 (shoes1) ****
+make all 
+Building file: ../shoes1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shoes1.d" -MT"shoes1.o" -o "shoes1.o" "../shoes1.c"
+Finished building: ../shoes1.c
+ 
+Building target: c 5.1 
+Invoking: GCC C Linker
+gcc  -o "c 5.1 (shoes1)"  ./shoes1.o   
+Finished building target: c 5.1 
+ 
+18:06:51 **** Incremental Build of configuration Debug for project c 5.1 (shoes1) ****
+make all 
+Building target: c 5.1 
+Invoking: GCC C Linker
+gcc  -o "c 5.1 (shoes1)"  ./shoes1.o   
+Finished building target: c 5.1 
+ 
+18:07:12 **** Incremental Build of configuration Debug for project c 5.1 (shoes1) ****
+make all 
+Building file: ../shoes1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shoes1.d" -MT"shoes1.o" -o "shoes1.o" "../shoes1.c"
+Finished building: ../shoes1.c
+ 
+Building target: c 5.1 
+Invoking: GCC C Linker
+gcc  -o "c 5.1 (shoes1)"  ./shoes1.o   
+Finished building target: c 5.1 
+ 
+18:07:14 **** Incremental Build of configuration Debug for project c 5.1 (shoes1) ****
+make all 
+Building target: c 5.1 
+Invoking: GCC C Linker
+gcc  -o "c 5.1 (shoes1)"  ./shoes1.o   
+Finished building target: c 5.1 
+ 
+18:16:31 **** Build of configuration Debug for project c 5.2 (shoes2) ****
+make all 
+Building file: ../shoes2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shoes2.d" -MT"shoes2.o" -o "shoes2.o" "../shoes2.c"
+../shoes2.c: In function ‘main’:
+../shoes2.c:17:34: error: expected ‘)’ before ‘lenght’
+  printf("shoe size (men's)",foot lenght\n);
+                                  ^
+../shoes2.c:17:34: error: stray ‘\’ in program
+../shoes2.c:17:34: warning: too many arguments for format [-Wformat-extra-args]
+make: *** [shoes2.o] Error 1
+18:17:20 **** Incremental Build of configuration Debug for project c 5.2 (shoes2) ****
+make all 
+Building file: ../shoes2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shoes2.d" -MT"shoes2.o" -o "shoes2.o" "../shoes2.c"
+Finished building: ../shoes2.c
+ 
+Building target: c 5.2 
+Invoking: GCC C Linker
+gcc  -o "c 5.2 (shoes2)"  ./shoes2.o   
+Finished building target: c 5.2 
+ 
+18:17:23 **** Incremental Build of configuration Debug for project c 5.2 (shoes2) ****
+make all 
+Building target: c 5.2 
+Invoking: GCC C Linker
+gcc  -o "c 5.2 (shoes2)"  ./shoes2.o   
+Finished building target: c 5.2 
+ 
+18:17:41 **** Incremental Build of configuration Debug for project c 5.2 (shoes2) ****
+make all 
+Building file: ../shoes2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shoes2.d" -MT"shoes2.o" -o "shoes2.o" "../shoes2.c"
+Finished building: ../shoes2.c
+ 
+Building target: c 5.2 
+Invoking: GCC C Linker
+gcc  -o "c 5.2 (shoes2)"  ./shoes2.o   
+Finished building target: c 5.2 
+ 
+18:17:44 **** Incremental Build of configuration Debug for project c 5.2 (shoes2) ****
+make all 
+Building target: c 5.2 
+Invoking: GCC C Linker
+gcc  -o "c 5.2 (shoes2)"  ./shoes2.o   
+Finished building target: c 5.2 
+ 
+18:37:54 **** Build of configuration Debug for project c 5.3 (golf) ****
+make all 
+Building file: ../golf.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"golf.d" -MT"golf.o" -o "golf.o" "../golf.c"
+Finished building: ../golf.c
+ 
+Building target: c 5.3 
+Invoking: GCC C Linker
+gcc  -o "c 5.3 (golf)"  ./golf.o   
+Finished building target: c 5.3 
+ 
+18:37:59 **** Incremental Build of configuration Debug for project c 5.3 (golf) ****
+make all 
+Building target: c 5.3 
+Invoking: GCC C Linker
+gcc  -o "c 5.3 (golf)"  ./golf.o   
+Finished building target: c 5.3 
+ 
+18:38:08 **** Incremental Build of configuration Debug for project c 5.3 (golf) ****
+make all 
+Building file: ../golf.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"golf.d" -MT"golf.o" -o "golf.o" "../golf.c"
+Finished building: ../golf.c
+ 
+Building target: c 5.3 
+Invoking: GCC C Linker
+gcc  -o "c 5.3 (golf)"  ./golf.o   
+Finished building target: c 5.3 
+ 
+18:38:10 **** Incremental Build of configuration Debug for project c 5.3 (golf) ****
+make all 
+Building target: c 5.3 
+Invoking: GCC C Linker
+gcc  -o "c 5.3 (golf)"  ./golf.o   
+Finished building target: c 5.3 
+ 
+18:38:23 **** Incremental Build of configuration Debug for project c 5.3 (golf) ****
+make all 
+Building file: ../golf.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"golf.d" -MT"golf.o" -o "golf.o" "../golf.c"
+Finished building: ../golf.c
+ 
+Building target: c 5.3 
+Invoking: GCC C Linker
+gcc  -o "c 5.3 (golf)"  ./golf.o   
+Finished building target: c 5.3 
+ 
+18:38:25 **** Incremental Build of configuration Debug for project c 5.3 (golf) ****
+make all 
+Building target: c 5.3 
+Invoking: GCC C Linker
+gcc  -o "c 5.3 (golf)"  ./golf.o   
+Finished building target: c 5.3 
+ 
+18:38:40 **** Incremental Build of configuration Debug for project c 5.3 (golf) ****
+make all 
+Building file: ../golf.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"golf.d" -MT"golf.o" -o "golf.o" "../golf.c"
+Finished building: ../golf.c
+ 
+Building target: c 5.3 
+Invoking: GCC C Linker
+gcc  -o "c 5.3 (golf)"  ./golf.o   
+Finished building target: c 5.3 
+ 
+18:38:42 **** Incremental Build of configuration Debug for project c 5.3 (golf) ****
+make all 
+Building target: c 5.3 
+Invoking: GCC C Linker
+gcc  -o "c 5.3 (golf)"  ./golf.o   
+Finished building target: c 5.3 
+ 
+18:39:09 **** Incremental Build of configuration Debug for project c 5.3 (golf) ****
+make all 
+Building file: ../golf.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"golf.d" -MT"golf.o" -o "golf.o" "../golf.c"
+Finished building: ../golf.c
+ 
+Building target: c 5.3 
+Invoking: GCC C Linker
+gcc  -o "c 5.3 (golf)"  ./golf.o   
+Finished building target: c 5.3 
+ 
+18:39:11 **** Incremental Build of configuration Debug for project c 5.3 (golf) ****
+make all 
+Building target: c 5.3 
+Invoking: GCC C Linker
+gcc  -o "c 5.3 (golf)"  ./golf.o   
+Finished building target: c 5.3 
+ 
+18:39:20 **** Incremental Build of configuration Debug for project c 5.3 (golf) ****
+make all 
+Building file: ../golf.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"golf.d" -MT"golf.o" -o "golf.o" "../golf.c"
+Finished building: ../golf.c
+ 
+Building target: c 5.3 
+Invoking: GCC C Linker
+gcc  -o "c 5.3 (golf)"  ./golf.o   
+Finished building target: c 5.3 
+ 
+18:39:22 **** Incremental Build of configuration Debug for project c 5.3 (golf) ****
+make all 
+Building target: c 5.3 
+Invoking: GCC C Linker
+gcc  -o "c 5.3 (golf)"  ./golf.o   
+Finished building target: c 5.3 
+ 
+18:39:26 **** Incremental Build of configuration Debug for project c 5.3 (golf) ****
+make all 
+Building file: ../golf.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"golf.d" -MT"golf.o" -o "golf.o" "../golf.c"
+Finished building: ../golf.c
+ 
+Building target: c 5.3 
+Invoking: GCC C Linker
+gcc  -o "c 5.3 (golf)"  ./golf.o   
+Finished building target: c 5.3 
+ 
+18:39:28 **** Incremental Build of configuration Debug for project c 5.3 (golf) ****
+make all 
+Building target: c 5.3 
+Invoking: GCC C Linker
+gcc  -o "c 5.3 (golf)"  ./golf.o   
+Finished building target: c 5.3 
+ 
+18:46:07 **** Build of configuration Debug for project c 5.4 (squares) ****
+make all 
+Building file: ../squares.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"squares.d" -MT"squares.o" -o "squares.o" "../squares.c"
+Finished building: ../squares.c
+ 
+Building target: c 5.4 
+Invoking: GCC C Linker
+gcc  -o "c 5.4 (squares)"  ./squares.o   
+Finished building target: c 5.4 
+ 
+18:46:09 **** Incremental Build of configuration Debug for project c 5.4 (squares) ****
+make all 
+Building target: c 5.4 
+Invoking: GCC C Linker
+gcc  -o "c 5.4 (squares)"  ./squares.o   
+Finished building target: c 5.4 
+ 
+18:46:31 **** Incremental Build of configuration Debug for project c 5.4 (squares) ****
+make all 
+Building file: ../squares.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"squares.d" -MT"squares.o" -o "squares.o" "../squares.c"
+Finished building: ../squares.c
+ 
+Building target: c 5.4 
+Invoking: GCC C Linker
+gcc  -o "c 5.4 (squares)"  ./squares.o   
+Finished building target: c 5.4 
+ 
+18:46:33 **** Incremental Build of configuration Debug for project c 5.4 (squares) ****
+make all 
+Building target: c 5.4 
+Invoking: GCC C Linker
+gcc  -o "c 5.4 (squares)"  ./squares.o   
+Finished building target: c 5.4 
+ 
+18:56:31 **** Build of configuration Debug for project c 5.5 (wheat) ****
+make all 
+Building file: ../wheat.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"wheat.d" -MT"wheat.o" -o "wheat.o" "../wheat.c"
+Finished building: ../wheat.c
+ 
+Building target: c 5.5 
+Invoking: GCC C Linker
+gcc  -o "c 5.5 (wheat)"  ./wheat.o   
+Finished building target: c 5.5 
+ 
+18:56:34 **** Incremental Build of configuration Debug for project c 5.5 (wheat) ****
+make all 
+Building target: c 5.5 
+Invoking: GCC C Linker
+gcc  -o "c 5.5 (wheat)"  ./wheat.o   
+Finished building target: c 5.5 
+ 
+18:57:21 **** Incremental Build of configuration Debug for project c 5.5 (wheat) ****
+make all 
+Building file: ../wheat.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"wheat.d" -MT"wheat.o" -o "wheat.o" "../wheat.c"
+Finished building: ../wheat.c
+ 
+Building target: c 5.5 
+Invoking: GCC C Linker
+gcc  -o "c 5.5 (wheat)"  ./wheat.o   
+Finished building target: c 5.5 
+ 
+18:57:22 **** Incremental Build of configuration Debug for project c 5.5 (wheat) ****
+make all 
+Building target: c 5.5 
+Invoking: GCC C Linker
+gcc  -o "c 5.5 (wheat)"  ./wheat.o   
+Finished building target: c 5.5 
+ 
+18:57:49 **** Incremental Build of configuration Debug for project c 5.5 (wheat) ****
+make all 
+Building file: ../wheat.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"wheat.d" -MT"wheat.o" -o "wheat.o" "../wheat.c"
+Finished building: ../wheat.c
+ 
+Building target: c 5.5 
+Invoking: GCC C Linker
+gcc  -o "c 5.5 (wheat)"  ./wheat.o   
+Finished building target: c 5.5 
+ 
+18:57:51 **** Incremental Build of configuration Debug for project c 5.5 (wheat) ****
+make all 
+Building target: c 5.5 
+Invoking: GCC C Linker
+gcc  -o "c 5.5 (wheat)"  ./wheat.o   
+Finished building target: c 5.5 
+ 
+18:58:06 **** Incremental Build of configuration Debug for project c 5.5 (wheat) ****
+make all 
+Building file: ../wheat.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"wheat.d" -MT"wheat.o" -o "wheat.o" "../wheat.c"
+Finished building: ../wheat.c
+ 
+Building target: c 5.5 
+Invoking: GCC C Linker
+gcc  -o "c 5.5 (wheat)"  ./wheat.o   
+Finished building target: c 5.5 
+ 
+18:58:07 **** Incremental Build of configuration Debug for project c 5.5 (wheat) ****
+make all 
+Building target: c 5.5 
+Invoking: GCC C Linker
+gcc  -o "c 5.5 (wheat)"  ./wheat.o   
+Finished building target: c 5.5 
+ 
+18:58:18 **** Incremental Build of configuration Debug for project c 5.5 (wheat) ****
+make all 
+Building file: ../wheat.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"wheat.d" -MT"wheat.o" -o "wheat.o" "../wheat.c"
+Finished building: ../wheat.c
+ 
+Building target: c 5.5 
+Invoking: GCC C Linker
+gcc  -o "c 5.5 (wheat)"  ./wheat.o   
+Finished building target: c 5.5 
+ 
+18:58:23 **** Incremental Build of configuration Debug for project c 5.5 (wheat) ****
+make all 
+Building file: ../wheat.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"wheat.d" -MT"wheat.o" -o "wheat.o" "../wheat.c"
+Finished building: ../wheat.c
+ 
+Building target: c 5.5 
+Invoking: GCC C Linker
+gcc  -o "c 5.5 (wheat)"  ./wheat.o   
+Finished building target: c 5.5 
+ 
+18:58:37 **** Incremental Build of configuration Debug for project c 5.5 (wheat) ****
+make all 
+Building file: ../wheat.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"wheat.d" -MT"wheat.o" -o "wheat.o" "../wheat.c"
+Finished building: ../wheat.c
+ 
+Building target: c 5.5 
+Invoking: GCC C Linker
+gcc  -o "c 5.5 (wheat)"  ./wheat.o   
+Finished building target: c 5.5 
+ 
+18:58:39 **** Incremental Build of configuration Debug for project c 5.5 (wheat) ****
+make all 
+Building target: c 5.5 
+Invoking: GCC C Linker
+gcc  -o "c 5.5 (wheat)"  ./wheat.o   
+Finished building target: c 5.5 
+ 
+19:18:23 **** Incremental Build of configuration Debug for project c 5.5 (wheat) ****
+make all 
+Building file: ../wheat.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"wheat.d" -MT"wheat.o" -o "wheat.o" "../wheat.c"
+Finished building: ../wheat.c
+ 
+Building target: c 5.5 
+Invoking: GCC C Linker
+gcc  -o "c 5.5 (wheat)"  ./wheat.o   
+Finished building target: c 5.5 
+ 
+19:18:24 **** Incremental Build of configuration Debug for project c 5.5 (wheat) ****
+make all 
+Building target: c 5.5 
+Invoking: GCC C Linker
+gcc  -o "c 5.5 (wheat)"  ./wheat.o   
+Finished building target: c 5.5 
+ 
+19:18:50 **** Incremental Build of configuration Debug for project c 5.5 (wheat) ****
+make all 
+Building file: ../wheat.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"wheat.d" -MT"wheat.o" -o "wheat.o" "../wheat.c"
+Finished building: ../wheat.c
+ 
+Building target: c 5.5 
+Invoking: GCC C Linker
+gcc  -o "c 5.5 (wheat)"  ./wheat.o   
+Finished building target: c 5.5 
+ 
+19:18:52 **** Incremental Build of configuration Debug for project c 5.5 (wheat) ****
+make all 
+Building target: c 5.5 
+Invoking: GCC C Linker
+gcc  -o "c 5.5 (wheat)"  ./wheat.o   
+Finished building target: c 5.5 
+ 
+16:21:23 **** Build of configuration Debug for project c 5.8 (sizeof) ****
+make all 
+Building file: ../sizeof.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sizeof.d" -MT"sizeof.o" -o "sizeof.o" "../sizeof.c"
+Finished building: ../sizeof.c
+ 
+Building target: c 5.8 
+Invoking: GCC C Linker
+gcc  -o "c 5.8 (sizeof)"  ./sizeof.o   
+Finished building target: c 5.8 
+ 
+16:21:29 **** Incremental Build of configuration Debug for project c 5.8 (sizeof) ****
+make all 
+Building target: c 5.8 
+Invoking: GCC C Linker
+gcc  -o "c 5.8 (sizeof)"  ./sizeof.o   
+Finished building target: c 5.8 
+ 
+17:48:03 **** Build of configuration Debug for project c 5.9 (min_sec) ****
+make all 
+Building file: ../min_sec.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"min_sec.d" -MT"min_sec.o" -o "min_sec.o" "../min_sec.c"
+Finished building: ../min_sec.c
+ 
+Building target: c 5.9 
+Invoking: GCC C Linker
+gcc  -o "c 5.9 (min_sec)"  ./min_sec.o   
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [c 5.9 (min_sec)] Error 1
+17:48:08 **** Incremental Build of configuration Debug for project c 5.9 (min_sec) ****
+make all 
+Building file: ../min_sec.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"min_sec.d" -MT"min_sec.o" -o "min_sec.o" "../min_sec.c"
+../min_sec.c: In function ‘main’:
+../min_sec.c:17:9: warning: unknown escape sequence: '\:' [enabled by default]
+  printf("Enter the number of seconds (<=0 to quit)\:");
+         ^
+../min_sec.c:25:3: warning: ' ' flag used with ‘%s’ gnu_printf format [-Wformat=]
+   printf("%d seconds is %d minutes, % seconds.\n", sec, min, left);
+   ^
+../min_sec.c:25:3: warning: format ‘%s’ expects argument of type ‘char *’, but argument 4 has type ‘int’ [-Wformat=]
+Finished building: ../min_sec.c
+ 
+Building target: c 5.9 
+Invoking: GCC C Linker
+gcc  -o "c 5.9 (min_sec)"  ./min_sec.o   
+Finished building target: c 5.9 
+ 
+17:48:11 **** Incremental Build of configuration Debug for project c 5.9 (min_sec) ****
+make all 
+Building target: c 5.9 
+Invoking: GCC C Linker
+gcc  -o "c 5.9 (min_sec)"  ./min_sec.o   
+Finished building target: c 5.9 
+ 
+17:49:20 **** Incremental Build of configuration Debug for project c 5.9 (min_sec) ****
+make all 
+Building file: ../min_sec.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"min_sec.d" -MT"min_sec.o" -o "min_sec.o" "../min_sec.c"
+../min_sec.c: In function ‘main’:
+../min_sec.c:17:9: warning: unknown escape sequence: '\:' [enabled by default]
+  printf("Enter the number of seconds (<=0 to quit)\:");
+         ^
+../min_sec.c:25:3: warning: ' ' flag used with ‘%s’ gnu_printf format [-Wformat=]
+   printf("%d seconds is %d minutes, % seconds.\n", sec, min, left);
+   ^
+../min_sec.c:25:3: warning: format ‘%s’ expects argument of type ‘char *’, but argument 4 has type ‘int’ [-Wformat=]
+Finished building: ../min_sec.c
+ 
+Building target: c 5.9 
+Invoking: GCC C Linker
+gcc  -o "c 5.9 (min_sec)"  ./min_sec.o   
+Finished building target: c 5.9 
+ 
+17:49:22 **** Incremental Build of configuration Debug for project c 5.9 (min_sec) ****
+make all 
+Building target: c 5.9 
+Invoking: GCC C Linker
+gcc  -o "c 5.9 (min_sec)"  ./min_sec.o   
+Finished building target: c 5.9 
+ 
+17:49:37 **** Incremental Build of configuration Debug for project c 5.9 (min_sec) ****
+make all 
+Building file: ../min_sec.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"min_sec.d" -MT"min_sec.o" -o "min_sec.o" "../min_sec.c"
+../min_sec.c: In function ‘main’:
+../min_sec.c:17:9: warning: unknown escape sequence: '\:' [enabled by default]
+  printf("Enter the number of seconds (<=0 to quit)\:");
+         ^
+Finished building: ../min_sec.c
+ 
+Building target: c 5.9 
+Invoking: GCC C Linker
+gcc  -o "c 5.9 (min_sec)"  ./min_sec.o   
+Finished building target: c 5.9 
+ 
+17:49:39 **** Incremental Build of configuration Debug for project c 5.9 (min_sec) ****
+make all 
+Building target: c 5.9 
+Invoking: GCC C Linker
+gcc  -o "c 5.9 (min_sec)"  ./min_sec.o   
+Finished building target: c 5.9 
+ 
+17:50:35 **** Incremental Build of configuration Debug for project c 5.9 (min_sec) ****
+make all 
+Building file: ../min_sec.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"min_sec.d" -MT"min_sec.o" -o "min_sec.o" "../min_sec.c"
+../min_sec.c: In function ‘main’:
+../min_sec.c:17:9: warning: unknown escape sequence: '\:' [enabled by default]
+  printf("Enter the number of seconds (<=0 to quit)\:");
+         ^
+Finished building: ../min_sec.c
+ 
+Building target: c 5.9 
+Invoking: GCC C Linker
+gcc  -o "c 5.9 (min_sec)"  ./min_sec.o   
+Finished building target: c 5.9 
+ 
+17:50:38 **** Incremental Build of configuration Debug for project c 5.9 (min_sec) ****
+make all 
+Building target: c 5.9 
+Invoking: GCC C Linker
+gcc  -o "c 5.9 (min_sec)"  ./min_sec.o   
+Finished building target: c 5.9 
+ 
+17:50:55 **** Incremental Build of configuration Debug for project c 5.9 (min_sec) ****
+make all 
+Building file: ../min_sec.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"min_sec.d" -MT"min_sec.o" -o "min_sec.o" "../min_sec.c"
+Finished building: ../min_sec.c
+ 
+Building target: c 5.9 
+Invoking: GCC C Linker
+gcc  -o "c 5.9 (min_sec)"  ./min_sec.o   
+Finished building target: c 5.9 
+ 
+17:50:57 **** Incremental Build of configuration Debug for project c 5.9 (min_sec) ****
+make all 
+Building target: c 5.9 
+Invoking: GCC C Linker
+gcc  -o "c 5.9 (min_sec)"  ./min_sec.o   
+Finished building target: c 5.9 
+ 
+17:51:04 **** Incremental Build of configuration Debug for project c 5.9 (min_sec) ****
+make all 
+Building file: ../min_sec.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"min_sec.d" -MT"min_sec.o" -o "min_sec.o" "../min_sec.c"
+Finished building: ../min_sec.c
+ 
+Building target: c 5.9 
+Invoking: GCC C Linker
+gcc  -o "c 5.9 (min_sec)"  ./min_sec.o   
+Finished building target: c 5.9 
+ 
+17:51:06 **** Incremental Build of configuration Debug for project c 5.9 (min_sec) ****
+make all 
+Building target: c 5.9 
+Invoking: GCC C Linker
+gcc  -o "c 5.9 (min_sec)"  ./min_sec.o   
+Finished building target: c 5.9 
+ 
+17:58:08 **** Build of configuration Debug for project c 5.10 (add_one) ****
+make all 
+Building file: ../add_one.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"add_one.d" -MT"add_one.o" -o "add_one.o" "../add_one.c"
+Finished building: ../add_one.c
+ 
+Building target: c 5.10 
+Invoking: GCC C Linker
+gcc  -o "c 5.10 (add_one)"  ./add_one.o   
+Finished building target: c 5.10 
+ 
+17:58:12 **** Incremental Build of configuration Debug for project c 5.10 (add_one) ****
+make all 
+Building target: c 5.10 
+Invoking: GCC C Linker
+gcc  -o "c 5.10 (add_one)"  ./add_one.o   
+Finished building target: c 5.10 
+ 
+18:05:56 **** Build of configuration Debug for project c 5.11 (post_pre) ****
+make all 
+Building file: ../post_pre.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"post_pre.d" -MT"post_pre.o" -o "post_pre.o" "../post_pre.c"
+Finished building: ../post_pre.c
+ 
+Building target: c 5.11 
+Invoking: GCC C Linker
+gcc  -o "c 5.11 (post_pre)"  ./post_pre.o   
+Finished building target: c 5.11 
+ 
+18:05:59 **** Incremental Build of configuration Debug for project c 5.11 (post_pre) ****
+make all 
+Building target: c 5.11 
+Invoking: GCC C Linker
+gcc  -o "c 5.11 (post_pre)"  ./post_pre.o   
+Finished building target: c 5.11 
+ 
+18:06:24 **** Incremental Build of configuration Debug for project c 5.11 (post_pre) ****
+make all 
+Building file: ../post_pre.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"post_pre.d" -MT"post_pre.o" -o "post_pre.o" "../post_pre.c"
+Finished building: ../post_pre.c
+ 
+Building target: c 5.11 
+Invoking: GCC C Linker
+gcc  -o "c 5.11 (post_pre)"  ./post_pre.o   
+Finished building target: c 5.11 
+ 
+18:06:26 **** Incremental Build of configuration Debug for project c 5.11 (post_pre) ****
+make all 
+Building target: c 5.11 
+Invoking: GCC C Linker
+gcc  -o "c 5.11 (post_pre)"  ./post_pre.o   
+Finished building target: c 5.11 
+ 
+18:07:03 **** Incremental Build of configuration Debug for project c 5.11 (post_pre) ****
+make all 
+Building file: ../post_pre.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"post_pre.d" -MT"post_pre.o" -o "post_pre.o" "../post_pre.c"
+Finished building: ../post_pre.c
+ 
+Building target: c 5.11 
+Invoking: GCC C Linker
+gcc  -o "c 5.11 (post_pre)"  ./post_pre.o   
+Finished building target: c 5.11 
+ 
+18:07:05 **** Incremental Build of configuration Debug for project c 5.11 (post_pre) ****
+make all 
+Building target: c 5.11 
+Invoking: GCC C Linker
+gcc  -o "c 5.11 (post_pre)"  ./post_pre.o   
+Finished building target: c 5.11 
+ 
+18:07:14 **** Incremental Build of configuration Debug for project c 5.11 (post_pre) ****
+make all 
+Building file: ../post_pre.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"post_pre.d" -MT"post_pre.o" -o "post_pre.o" "../post_pre.c"
+Finished building: ../post_pre.c
+ 
+Building target: c 5.11 
+Invoking: GCC C Linker
+gcc  -o "c 5.11 (post_pre)"  ./post_pre.o   
+Finished building target: c 5.11 
+ 
+18:07:16 **** Incremental Build of configuration Debug for project c 5.11 (post_pre) ****
+make all 
+Building target: c 5.11 
+Invoking: GCC C Linker
+gcc  -o "c 5.11 (post_pre)"  ./post_pre.o   
+Finished building target: c 5.11 
+ 
+18:07:33 **** Incremental Build of configuration Debug for project c 5.11 (post_pre) ****
+make all 
+Building file: ../post_pre.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"post_pre.d" -MT"post_pre.o" -o "post_pre.o" "../post_pre.c"
+Finished building: ../post_pre.c
+ 
+Building target: c 5.11 
+Invoking: GCC C Linker
+gcc  -o "c 5.11 (post_pre)"  ./post_pre.o   
+Finished building target: c 5.11 
+ 
+18:07:34 **** Incremental Build of configuration Debug for project c 5.11 (post_pre) ****
+make all 
+Building target: c 5.11 
+Invoking: GCC C Linker
+gcc  -o "c 5.11 (post_pre)"  ./post_pre.o   
+Finished building target: c 5.11 
+ 
+18:21:00 **** Build of configuration Debug for project c 5.12 (bottles) ****
+make all 
+Building file: ../bottles.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"bottles.d" -MT"bottles.o" -o "bottles.o" "../bottles.c"
+Finished building: ../bottles.c
+ 
+Building target: c 5.12 
+Invoking: GCC C Linker
+gcc  -o "c 5.12 (bottles)"  ./bottles.o   
+Finished building target: c 5.12 
+ 
+18:21:03 **** Incremental Build of configuration Debug for project c 5.12 (bottles) ****
+make all 
+Building target: c 5.12 
+Invoking: GCC C Linker
+gcc  -o "c 5.12 (bottles)"  ./bottles.o   
+Finished building target: c 5.12 
+ 
+18:21:36 **** Incremental Build of configuration Debug for project c 5.12 (bottles) ****
+make all 
+Building file: ../bottles.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"bottles.d" -MT"bottles.o" -o "bottles.o" "../bottles.c"
+Finished building: ../bottles.c
+ 
+Building target: c 5.12 
+Invoking: GCC C Linker
+gcc  -o "c 5.12 (bottles)"  ./bottles.o   
+Finished building target: c 5.12 
+ 
+18:21:40 **** Incremental Build of configuration Debug for project c 5.12 (bottles) ****
+make all 
+Building target: c 5.12 
+Invoking: GCC C Linker
+gcc  -o "c 5.12 (bottles)"  ./bottles.o   
+Finished building target: c 5.12 
+ 
+18:35:34 **** Build of configuration Debug for project c 5.13 (addmeup) ****
+make all 
+Building file: ../addmeup.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"addmeup.d" -MT"addmeup.o" -o "addmeup.o" "../addmeup.c"
+Finished building: ../addmeup.c
+ 
+Building target: c 5.13 
+Invoking: GCC C Linker
+gcc  -o "c 5.13 (addmeup)"  ./addmeup.o   
+Finished building target: c 5.13 
+ 
+18:35:37 **** Incremental Build of configuration Debug for project c 5.13 (addmeup) ****
+make all 
+Building target: c 5.13 
+Invoking: GCC C Linker
+gcc  -o "c 5.13 (addmeup)"  ./addmeup.o   
+Finished building target: c 5.13 
+ 
+18:38:26 **** Incremental Build of configuration Debug for project c 5.13 (addmeup) ****
+make all 
+Building file: ../addmeup.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"addmeup.d" -MT"addmeup.o" -o "addmeup.o" "../addmeup.c"
+Finished building: ../addmeup.c
+ 
+Building target: c 5.13 
+Invoking: GCC C Linker
+gcc  -o "c 5.13 (addmeup)"  ./addmeup.o   
+Finished building target: c 5.13 
+ 
+18:38:33 **** Incremental Build of configuration Debug for project c 5.13 (addmeup) ****
+make all 
+Building target: c 5.13 
+Invoking: GCC C Linker
+gcc  -o "c 5.13 (addmeup)"  ./addmeup.o   
+Finished building target: c 5.13 
+ 
+19:20:03 **** Build of configuration Debug for project c 5.15 (pound) ****
+make all 
+Building file: ../pound.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"pound.d" -MT"pound.o" -o "pound.o" "../pound.c"
+Finished building: ../pound.c
+ 
+Building target: c 5.15 
+Invoking: GCC C Linker
+gcc  -o "c 5.15 (pound)"  ./pound.o   
+Finished building target: c 5.15 
+ 
+19:20:06 **** Incremental Build of configuration Debug for project c 5.15 (pound) ****
+make all 
+Building target: c 5.15 
+Invoking: GCC C Linker
+gcc  -o "c 5.15 (pound)"  ./pound.o   
+Finished building target: c 5.15 
+ 

@@ -1,0 +1,10 @@
+18:07:34 **** Incremental Build of configuration Debug for project c 5.11 (post_pre) ****
+make all 
+Building target: c 5.11 
+Invoking: GCC C Linker
+gcc  -o "c 5.11 (post_pre)"  ./post_pre.o   
+Finished building target: c 5.11 
+ 
+
+18:07:34 Build Finished (took 248ms)
+

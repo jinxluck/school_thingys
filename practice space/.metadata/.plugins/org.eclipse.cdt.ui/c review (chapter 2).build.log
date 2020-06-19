@@ -1,0 +1,10 @@
+19:02:03 **** Incremental Build of configuration Debug for project c review (chapter 2) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (chapter 2)"  ./indiana.o   
+Finished building target: c review 
+ 
+
+19:02:03 Build Finished (took 208ms)
+

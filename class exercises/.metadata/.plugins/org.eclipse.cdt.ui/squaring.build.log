@@ -1,0 +1,15 @@
+08:14:32 **** Incremental Build of configuration Debug for project squaring ****
+make all 
+Building file: ../Squaring_program.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Squaring_program.d" -MT"Squaring_program.o" -o "Squaring_program.o" "../Squaring_program.c"
+Finished building: ../Squaring_program.c
+ 
+Building target: squaring
+Invoking: GCC C Linker
+gcc  -o "squaring"  ./Squaring_program.o   
+Finished building target: squaring
+ 
+
+08:14:32 Build Finished (took 345ms)
+

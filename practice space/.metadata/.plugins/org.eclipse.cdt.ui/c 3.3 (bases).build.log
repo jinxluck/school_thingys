@@ -1,0 +1,10 @@
+18:21:54 **** Incremental Build of configuration Debug for project c 3.3 (bases) ****
+make all 
+Building target: c 3.3 
+Invoking: GCC C Linker
+gcc  -o "c 3.3 (bases)"  ./bases.o   
+Finished building target: c 3.3 
+ 
+
+18:21:54 Build Finished (took 227ms)
+

@@ -1,0 +1,1 @@
+indiana.o: ../indiana.c

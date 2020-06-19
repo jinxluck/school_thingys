@@ -1,0 +1,1 @@
+golf.o: ../golf.c

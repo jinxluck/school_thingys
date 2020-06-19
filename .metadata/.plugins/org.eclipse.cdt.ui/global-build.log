@@ -1,0 +1,401 @@
+18:47:48 **** Build of configuration Debug for project test ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: test
+Invoking: GCC C Linker
+gcc  -o "test"  ./main.o   
+Finished building target: test
+ 
+18:48:52 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+10:09:15 **** Clean-only build of configuration Debug for project test ****
+make clean 
+rm -rf  ./main.o  ./main.d  test
+ 
+10:09:16 **** Build of configuration Debug for project test ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: test
+Invoking: GCC C Linker
+gcc  -o "test"  ./main.o   
+Finished building target: test
+ 
+10:09:23 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+10:17:05 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+11:13:38 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:14:2: warning: statement with no effect [-Wunused-value]
+  getchar;
+  ^
+Finished building: ../main.c
+ 
+Building target: test
+Invoking: GCC C Linker
+gcc  -o "test"  ./main.o   
+Finished building target: test
+ 
+11:13:41 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+11:14:04 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: test
+Invoking: GCC C Linker
+gcc  -o "test"  ./main.o   
+Finished building target: test
+ 
+11:14:07 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+11:15:29 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: test
+Invoking: GCC C Linker
+gcc  -o "test"  ./main.o   
+Finished building target: test
+ 
+19:35:17 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+19:40:45 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: test
+Invoking: GCC C Linker
+gcc  -o "test"  ./main.o   
+Finished building target: test
+ 
+19:40:49 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+19:41:54 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: test
+Invoking: GCC C Linker
+gcc  -o "test"  ./main.o   
+Finished building target: test
+ 
+19:41:57 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+19:42:35 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: test
+Invoking: GCC C Linker
+gcc  -o "test"  ./main.o   
+Finished building target: test
+ 
+19:42:38 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+19:43:28 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: test
+Invoking: GCC C Linker
+gcc  -o "test"  ./main.o   
+Finished building target: test
+ 
+19:43:31 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+15:24:54 **** Build of configuration Debug for project c 2.1 program ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: c 2.1 program
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program"  ./main.o   
+Finished building target: c 2.1 program
+ 
+15:24:55 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: test
+Invoking: GCC C Linker
+gcc  -o "test"  ./main.o   
+Finished building target: test
+ 
+15:25:03 **** Incremental Build of configuration Debug for project c 2.1 program ****
+make all 
+make: Nothing to be done for `all'.
+15:25:15 **** Incremental Build of configuration Debug for project c 2.1 program ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: c 2.1 program
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program"  ./main.o   
+Finished building target: c 2.1 program
+ 
+15:25:15 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+15:25:19 **** Incremental Build of configuration Debug for project c 2.1 program ****
+make all 
+make: Nothing to be done for `all'.
+15:39:06 **** Incremental Build of configuration Debug for project c 2.1 program ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: c 2.1 program
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program"  ./main.o   
+Finished building target: c 2.1 program
+ 
+15:39:06 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+15:39:10 **** Incremental Build of configuration Debug for project c 2.1 program ****
+make all 
+make: Nothing to be done for `all'.
+15:39:46 **** Incremental Build of configuration Debug for project c 2.1 program ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: c 2.1 program
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program"  ./main.o   
+Finished building target: c 2.1 program
+ 
+15:39:47 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+15:52:26 **** Incremental Build of configuration Debug for project c 2.1 program ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: c 2.1 program
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program"  ./main.o   
+Finished building target: c 2.1 program
+ 
+15:52:27 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+15:52:30 **** Incremental Build of configuration Debug for project c 2.1 program ****
+make all 
+make: Nothing to be done for `all'.
+15:53:01 **** Incremental Build of configuration Debug for project c 2.1 program ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: c 2.1 program
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program"  ./main.o   
+Finished building target: c 2.1 program
+ 
+15:53:02 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+15:53:05 **** Incremental Build of configuration Debug for project c 2.1 program ****
+make all 
+make: Nothing to be done for `all'.
+15:56:02 **** Incremental Build of configuration Debug for project c 2.1 program ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: c 2.1 program
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program"  ./main.o   
+Finished building target: c 2.1 program
+ 
+15:56:03 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+16:09:52 **** Incremental Build of configuration Debug for project c 2.1 program ****
+make all 
+make: Nothing to be done for `all'.
+16:27:22 **** Incremental Build of configuration Debug for project c 2.1 program ****
+make all 
+make: Nothing to be done for `all'.
+16:27:46 **** Incremental Build of configuration Debug for project c 2.1 program ****
+make all 
+make: Nothing to be done for `all'.
+16:27:56 **** Incremental Build of configuration Debug for project c 2.1 program ****
+make all 
+make: Nothing to be done for `all'.
+17:14:18 **** Incremental Build of configuration Debug for project c 2.1 program ****
+make all 
+make: Nothing to be done for `all'.
+17:14:19 **** Build of configuration Debug for project c 2.2 program ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: c 2.2 program
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program"  ./main.o   
+Finished building target: c 2.2 program
+ 
+17:14:19 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+17:14:26 **** Incremental Build of configuration Debug for project c 2.1 program ****
+make all 
+make: Nothing to be done for `all'.
+17:14:41 **** Incremental Build of configuration Debug for project c 2.2 program ****
+make all 
+make: Nothing to be done for `all'.
+17:16:16 **** Clean-only build of configuration Debug for project c 2.2 program (fathom) ****
+make clean 
+rm -rf  ./main.o  ./main.d  "c 2.2 program"
+ 
+17:16:16 **** Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./main.o   
+Finished building target: c 2.2 program 
+ 
+17:16:42 **** Incremental Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./main.o   
+Finished building target: c 2.2 program 
+ 
+17:18:37 **** Clean-only build of configuration Debug for project c 2.1 program (num) ****
+make clean 
+rm -rf  ./main.o  ./main.d  "c 2.1 program"
+ 
+17:18:37 **** Build of configuration Debug for project c 2.1 program (num) ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: c 2.1 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program (num)"  ./main.o   
+Finished building target: c 2.1 program 
+ 
+17:18:37 **** Incremental Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building file: ../fathm_ft.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fathm_ft.d" -MT"fathm_ft.o" -o "fathm_ft.o" "../fathm_ft.c"
+Finished building: ../fathm_ft.c
+ 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./fathm_ft.o   
+Finished building target: c 2.2 program 
+ 
+17:18:38 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+17:18:39 **** Incremental Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./fathm_ft.o   
+Finished building target: c 2.2 program 
+ 
+17:22:11 **** Incremental Build of configuration Debug for project c 2.1 program (num) ****
+make all 
+Building target: c 2.1 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.1 program (num)"  ./main.o   
+Finished building target: c 2.1 program 
+ 
+17:22:11 **** Incremental Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building file: ../fathm_ft.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fathm_ft.d" -MT"fathm_ft.o" -o "fathm_ft.o" "../fathm_ft.c"
+Finished building: ../fathm_ft.c
+ 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./fathm_ft.o   
+Finished building target: c 2.2 program 
+ 
+17:22:12 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+17:22:13 **** Incremental Build of configuration Debug for project c 2.2 program (fathom) ****
+make all 
+Building target: c 2.2 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.2 program (fathom)"  ./fathm_ft.o   
+Finished building target: c 2.2 program 
+ 

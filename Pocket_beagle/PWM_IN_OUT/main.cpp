@@ -1,0 +1,44 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 16 Mar 2020
+ *      Author: jinxluck
+ */
+#include<iostream>
+#include<unistd.h> //for usleep
+#include"GPIO.h"
+using namespace exploringBB;
+using namespace std;
+
+//int pwm_in=57; //input pwm pin P2.06
+int pwm_out=64; //output pwm pin P2.08
+
+int main()
+{
+	GPIO outGPIO(pwm_out);// inGPIO(pwm_in);
+
+//	outGPIO.setDirection(GPIO::OUTPUT);
+//	inGPIO.setDirection(GPIO::INPUT);
+
+	int c;
+	c = outGPIO.getValue();
+	cout << c << endl;
+
+	/*
+	while(1)
+	{
+		if(inGPIO.getValue()==1)
+		{
+			outGPIO.setValue(GPIO::HIGH);
+		}
+		else
+		{
+			outGPIO.setValue(GPIO::LOW);
+		}
+	}
+*/
+
+	return 0;
+}
+
+

@@ -1,0 +1,1 @@
+varwid.o: ../varwid.c

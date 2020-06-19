@@ -1,0 +1,21 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 16 Mar 2020
+ *      Author: jinxluck
+ */
+
+#include "GPIO.h"
+#include "util.h"
+#include <stdio.h>
+
+using namespace std;
+
+int main(void)
+{
+	cout << "hello world" << endl;
+
+	return 0;
+}
+
+

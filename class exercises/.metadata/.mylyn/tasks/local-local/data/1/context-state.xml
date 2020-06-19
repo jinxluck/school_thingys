@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="5_1.c" partName="5_1.c" title="5_1.c" tooltip="class exercise 5.1/5_1.c">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/class exercise 5.1/5_1.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="4" selectionOffset="274" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.mylyn.tasks.ui.editors.task" name="exercise task" partName="exercise task" title="exercise task" tooltip="exercise task">
+<input factoryID="org.eclipse.mylyn.tasks.ui.elementFactories.task.editor" taskHandle="local-1"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>

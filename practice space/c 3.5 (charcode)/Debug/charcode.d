@@ -1,0 +1,1 @@
+charcode.o: ../charcode.c

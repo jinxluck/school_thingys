@@ -1,0 +1,10 @@
+20:36:54 **** Incremental Build of configuration Debug for project c review (indiana sloth) ****
+make all 
+Building target: c review 
+Invoking: GCC C Linker
+gcc  -o "c review (indiana sloth)"  ./indiana.o   
+Finished building target: c review 
+ 
+
+20:36:54 Build Finished (took 228ms)
+

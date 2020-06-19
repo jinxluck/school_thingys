@@ -1,0 +1,11 @@
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// File name: 	thread.c
+// Author: 		Jan K. Schiermer
+// Created on: 	8 Apr 2019
+// Description:
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#include <stdio.h>
+
+#define int MAX 30;
+
+char input[MAX];

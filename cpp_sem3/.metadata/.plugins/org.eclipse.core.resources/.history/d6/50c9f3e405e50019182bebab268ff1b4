@@ -1,0 +1,18 @@
+# -*- Makefile -*-
+
+#target: dependencies
+#	action
+
+all: e5
+
+e5: main.o Options.o
+	g++ main.o Options.o -o e5
+	
+main.o: main.cpp
+	g++ -c main.cpp
+	
+Options.o: Options.cpp
+	g++ -c Options.cpp
+	
+clean:
+	rm -f *.o e5

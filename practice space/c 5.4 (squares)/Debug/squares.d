@@ -1,0 +1,1 @@
+squares.o: ../squares.c

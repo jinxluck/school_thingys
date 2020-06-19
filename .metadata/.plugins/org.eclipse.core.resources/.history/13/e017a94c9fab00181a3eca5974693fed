@@ -1,0 +1,21 @@
+/*
+ * main.c
+ *
+ *  Created on: 29 Aug 2018
+ *      Author: jinxluck
+ */
+
+//fathm_ft.c -- converts 2 fathom to feet
+
+#include <stdio.h>
+int main(void)
+{
+	int feet, fathoms;
+
+	fathoms = 2;
+	feet = 6 * fathoms;
+
+	printf("There are %d feet in %d fathoms!\n", feet, fathoms);
+
+	return 0;
+}

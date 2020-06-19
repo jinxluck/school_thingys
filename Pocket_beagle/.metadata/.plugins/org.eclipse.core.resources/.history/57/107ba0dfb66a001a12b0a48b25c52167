@@ -1,0 +1,32 @@
+/*
+ * GPIO_controle.cpp
+ *
+ *  Created on: 20 Mar 2020
+ *      Author: jinxluck
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+char PATH[100] = "/sys/class/gpio/gpio";
+
+/*
+ * direction:
+ *  out = 1
+ * 	in = 0
+ *
+ * 	GPIO:
+ * 	 number of the gpio
+ */
+void set_direction(int GPIO, int direction)
+{
+	FILE *fs;
+
+	char buffer[5];
+
+	if(direction == 0)
+	{
+		strcat(GPIO,buffer,10);
+	}
+}

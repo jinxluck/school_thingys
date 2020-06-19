@@ -1,0 +1,30 @@
+# -*- Makefile -*-
+
+#target: dependencies
+#	action
+
+# makro's:
+
+#final program name:
+FPN = e5
+
+#main file:
+MF = main.cpp
+
+#linked files:
+LF = Options.cpp
+
+
+all:$(MF) 
+
+e5: main.o Options.o
+	g++ main.o Options.o -o e5
+	
+main.o: main.cpp
+	g++ -c main.cpp
+	
+Options.o: Options.cpp
+	g++ -c Options.cpp
+	
+clean:
+	rm -f *.o e5

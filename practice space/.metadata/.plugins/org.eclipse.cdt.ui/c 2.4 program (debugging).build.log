@@ -1,0 +1,10 @@
+18:21:52 **** Incremental Build of configuration Debug for project c 2.4 program (debugging) ****
+make all 
+Building target: c 2.4 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.4 program (debugging)"  ./nogood.o   
+Finished building target: c 2.4 program 
+ 
+
+18:21:53 Build Finished (took 323ms)
+

@@ -1,0 +1,1 @@
+skip.o: ../skip.c

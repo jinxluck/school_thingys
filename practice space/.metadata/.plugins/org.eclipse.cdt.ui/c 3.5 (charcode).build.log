@@ -1,0 +1,10 @@
+19:39:31 **** Incremental Build of configuration Debug for project c 3.5 (charcode) ****
+make all 
+Building target: c 3.5 
+Invoking: GCC C Linker
+gcc  -o "c 3.5 (charcode)"  ./charcode.o   
+Finished building target: c 3.5 
+ 
+
+19:39:31 Build Finished (took 135ms)
+

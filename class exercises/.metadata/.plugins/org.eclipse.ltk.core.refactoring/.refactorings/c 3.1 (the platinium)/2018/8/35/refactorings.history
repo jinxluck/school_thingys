@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;c 3.1 (the platinium)/age_converter.c&apos; to &apos;platinium.c&apos;" description="Rename resource &apos;age_converter.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="age_converter.c" name="platinium.c" stamp="1535654184844" updateReferences="true"/>
+</session>

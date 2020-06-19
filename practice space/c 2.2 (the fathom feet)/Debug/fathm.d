@@ -1,0 +1,1 @@
+fathm.o: ../fathm.c

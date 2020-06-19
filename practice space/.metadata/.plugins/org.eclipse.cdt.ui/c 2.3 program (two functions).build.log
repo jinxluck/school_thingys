@@ -1,0 +1,10 @@
+18:21:52 **** Incremental Build of configuration Debug for project c 2.3 program (two functions) ****
+make all 
+Building target: c 2.3 program 
+Invoking: GCC C Linker
+gcc  -o "c 2.3 program (two functions)"  ./two_func.o   
+Finished building target: c 2.3 program 
+ 
+
+18:21:52 Build Finished (took 372ms)
+

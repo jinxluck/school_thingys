@@ -1,0 +1,10 @@
+17:58:12 **** Incremental Build of configuration Debug for project c 5.10 (add_one) ****
+make all 
+Building target: c 5.10 
+Invoking: GCC C Linker
+gcc  -o "c 5.10 (add_one)"  ./add_one.o   
+Finished building target: c 5.10 
+ 
+
+17:58:12 Build Finished (took 194ms)
+

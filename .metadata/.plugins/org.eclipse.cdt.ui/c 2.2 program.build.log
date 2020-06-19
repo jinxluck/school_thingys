@@ -1,0 +1,6 @@
+17:14:41 **** Incremental Build of configuration Debug for project c 2.2 program ****
+make all 
+make: Nothing to be done for `all'.
+
+17:14:42 Build Finished (took 161ms)
+

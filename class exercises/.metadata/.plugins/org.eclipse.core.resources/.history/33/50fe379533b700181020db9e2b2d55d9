@@ -1,0 +1,27 @@
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// File name: 	5_1.c
+// Author: 		jinxluck
+// Created on: 	13 Sep 2018
+// Description:
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#include <stdio.h>
+
+int main(void)
+{
+	float tal,x;
+
+	scanf("%f",&tal);
+
+	x=tal;
+
+	while(x<tal+10)
+	{
+
+		printf("%.0f\n",x);
+
+		x=x+1;
+	}
+
+	return 0;
+}

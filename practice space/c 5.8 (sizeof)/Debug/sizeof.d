@@ -1,0 +1,1 @@
+sizeof.o: ../sizeof.c

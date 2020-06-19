@@ -1,0 +1,1 @@
+addmeup.o: ../addmeup.c

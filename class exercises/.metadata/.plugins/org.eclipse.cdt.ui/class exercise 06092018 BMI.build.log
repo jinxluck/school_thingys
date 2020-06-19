@@ -1,0 +1,6 @@
+12:45:33 **** Incremental Build of configuration Debug for project class exercise 06092018 BMI ****
+make all 
+make: Nothing to be done for `all'.
+
+12:45:33 Build Finished (took 183ms)
+

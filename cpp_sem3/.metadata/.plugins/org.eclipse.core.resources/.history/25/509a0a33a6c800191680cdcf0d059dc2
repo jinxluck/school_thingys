@@ -1,0 +1,21 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 27 Aug 2019
+ *  Author: jinxluck
+ */
+
+#include<iostream>
+
+using namespace std;
+
+int main(void)
+{
+	cout << "Goddag, jeg er dit interaktive Hej Verden program." << endl;
+
+	for(int input = 0;;)
+	{
+		cin >> input;
+	}
+}
+

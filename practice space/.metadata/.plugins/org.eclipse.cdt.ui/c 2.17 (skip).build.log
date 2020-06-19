@@ -1,0 +1,10 @@
+17:42:53 **** Incremental Build of configuration Debug for project c 2.17 (skip) ****
+make all 
+Building target: c 2.17 
+Invoking: GCC C Linker
+gcc  -o "c 2.17 (skip)"  ./skip.o   
+Finished building target: c 2.17 
+ 
+
+17:42:54 Build Finished (took 272ms)
+

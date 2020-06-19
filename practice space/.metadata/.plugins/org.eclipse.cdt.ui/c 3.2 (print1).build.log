@@ -1,0 +1,10 @@
+18:21:53 **** Incremental Build of configuration Debug for project c 3.2 (print1) ****
+make all 
+Building target: c 3.2 
+Invoking: GCC C Linker
+gcc  -o "c 3.2 (print1)"  ./print1.o   
+Finished building target: c 3.2 
+ 
+
+18:21:53 Build Finished (took 346ms)
+

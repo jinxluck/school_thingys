@@ -1,0 +1,23 @@
+/*
+ * main.c
+ *
+ *  Created on: 29 Aug 2018
+ *      Author: jinxluck
+ */
+
+#include <stdio.h>
+int main(void)
+{
+	int num;
+	num = 1;
+
+	printf("I am a simple ");
+	printf("computer.\n");
+	printf("My favorite number is %d because it's the first number.\n",num);
+
+	//test comment 1 (can be used for single line comments)
+	/*test comment 2 (can be used for longer comments containing several lines
+	 * but the lines have to be between the start comment and end comment sign*/
+
+	return 0;
+}

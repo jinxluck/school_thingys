@@ -1,0 +1,10 @@
+08:14:31 **** Incremental Build of configuration Debug for project c 3.1 (the platinium) ****
+make all 
+Building target: c 3.1 
+Invoking: GCC C Linker
+gcc  -o "c 3.1 (the platinium)"  ./platinium.o   
+Finished building target: c 3.1 
+ 
+
+08:14:31 Build Finished (took 261ms)
+

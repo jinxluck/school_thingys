@@ -1,0 +1,15 @@
+10:15:42 **** Incremental Build of configuration Debug for project hjemme projekt 5 ****
+make all 
+Building file: ../home_asignment_5.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"home_asignment_5.d" -MT"home_asignment_5.o" -o "home_asignment_5.o" "../home_asignment_5.c"
+Finished building: ../home_asignment_5.c
+ 
+Building target: hjemme projekt 5
+Invoking: GCC C Linker
+gcc  -o "hjemme projekt 5"  ./home_asignment_5.o   
+Finished building target: hjemme projekt 5
+ 
+
+10:15:42 Build Finished (took 450ms)
+

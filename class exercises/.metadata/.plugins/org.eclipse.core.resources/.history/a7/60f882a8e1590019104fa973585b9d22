@@ -1,0 +1,54 @@
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// File name: 	thread.c
+// Author: 		Jan K. Schiermer
+// Created on: 	8 Apr 2019
+// Description:
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#include <stdio.h>
+#include <ctype.h>
+
+#define MAX 30
+
+char input[MAX];
+char result[MAX];
+
+void input_func(void)
+{
+	scanf("%s",input);
+}
+
+void letter_change(void)
+{
+	int c, k = 0;
+	int i = strlen(input);
+	while(c != i)
+	{
+		k = input[c]
+		if(isupper(k) == 1)
+		{
+			printf("lol\n");
+			result[c]=tolower(input[c]);
+		}
+		else
+		{
+			result[c]=toupper(input[c]);
+
+		}
+		c++;
+	}
+}
+
+void print(void)
+{
+	printf("input:  %s\n",input);
+	printf("output: %s\n",result);
+}
+
+int main(void)
+{
+	input_func();
+	letter_change();
+	print();
+
+	return 0;
+}
